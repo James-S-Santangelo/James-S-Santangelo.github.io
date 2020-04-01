@@ -11,10 +11,9 @@ header:
     - label: "About me"
       url: "/about/"
   # caption: "Photo credit: James Santangelo"
-excerpt: Departmentof Ecology and Evolutionary Biology,  
-  University of Toronto
+excerpt: Department of Ecology and Evolutionary Biology,<br>University of Toronto
 
-# intro: 
+# intro:
 #   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 
 feature_row:
@@ -26,7 +25,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/test2.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"
     title: "Talks/Posters"
     excerpt: "Up-to-date list of talks and posters that I've presented with links to slides"
