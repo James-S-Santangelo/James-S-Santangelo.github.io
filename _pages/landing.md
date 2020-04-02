@@ -8,13 +8,13 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/Infl_fruit_wide.jpg
   actions:
-    - label: "About me"
-      url: "/about/"
+    - label: "Download DV"
+      url: 'https://ln.sync.com/dl/c6cf40e20/k5mam7je-tkvgtvbm-5uutxr9z-hr38czpq'
   # caption: "Photo credit: James Santangelo"
 excerpt: Department of Ecology and Evolutionary Biology,<br>University of Toronto
 
-# intro:
-#   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+intro:
+  - excerpt: '_I am currently a PhD candidate in the department of Ecology and Evolutionary Biology at the University of Toronto working with [Marc Johnson](https://evoecolab.wordpress.com/){:target="_blank"} and [Rob Ness](https://www.ness.bio){:target="_blank"}. I am using urban environments as large-scale, naturally replicated environments to examine the extent of parallel phenotypic and genomic evolution in nature using white clover (Trifolium repens) as a model system_'
 
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
@@ -67,7 +67,7 @@ feature_row:
 #     btn_class: "btn--primary"
 ---
 
-<!-- {% include feature_row id="intro" type="center" %} -->
+{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
