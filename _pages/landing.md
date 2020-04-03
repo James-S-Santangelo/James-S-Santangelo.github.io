@@ -17,25 +17,26 @@ intro:
   - excerpt: '_I am currently a PhD candidate in the department of Ecology and Evolutionary Biology at the University of Toronto working with [Marc Johnson](https://evoecolab.wordpress.com/){:target="_blank"} and [Rob Ness](https://www.ness.bio){:target="_blank"}. I am using urban environments as large-scale, naturally replicated environments to examine the extent of parallel phenotypic and genomic evolution in nature using white clover (Trifolium repens) as a model system_'
 
 feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Publications"
-    excerpt: "Up-to-date list of my papers, with links to PDFs and data"
-    url: /test/
+  - image_path: assets/images/squill.jpg
+    alt: "Siberian squill anthers"
+    title: "Research"
+    excerpt: "Descriptions of past and ongoing projects"
+    url: /research/
     # btn_label: "Read More"
     # btn_class: "btn--primary"
-  - image_path: /assets/images/test2.jpg
+  - image_path: /assets/images/halictid.jpg
     # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 2"
-    title: "Talks/Posters"
-    excerpt: "Up-to-date list of talks and posters that I've presented with links to slides"
-    url: /test/
+    alt: "Halictid bee pollinating clover flowers"
+    title: "Publications"
+    excerpt: "List of published papers and works in-progress"
+    url: /publications/
     # btn_label: "Read More"
     # btn_class: "btn--primary"
-  - image_path: /assets/images/test3.jpg
-    title: "CV"
-    excerpt: "Up-to-date CV"
-    url: /test/
+  - image_path: /assets/images/fly-agaric.jpg
+    alt: "Fly agaric on forest floor"
+    title: "Talks and posters"
+    excerpt: "Links to content presentated at past conferences"
+    url: /conferences/
     # btn_label: "Read More"
     # btn_class: "btn--primary"
 
