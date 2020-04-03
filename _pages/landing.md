@@ -21,23 +21,23 @@ feature_row:
     alt: "placeholder image 1"
     title: "Publications"
     excerpt: "Up-to-date list of my papers, with links to PDFs and data"
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    url: /test/
+    # btn_label: "Read More"
+    # btn_class: "btn--primary"
   - image_path: /assets/images/test2.jpg
     # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"
     title: "Talks/Posters"
     excerpt: "Up-to-date list of talks and posters that I've presented with links to slides"
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    url: /test/
+    # btn_label: "Read More"
+    # btn_class: "btn--primary"
   - image_path: /assets/images/test3.jpg
     title: "CV"
     excerpt: "Up-to-date CV"
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    url: /test/
+    # btn_label: "Read More"
+    # btn_class: "btn--primary"
 
 # feature_row2:
 #   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
