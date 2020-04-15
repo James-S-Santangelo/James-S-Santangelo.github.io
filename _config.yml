@@ -121,9 +121,9 @@ author:
 # Site Footer
 footer:
   links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
-    #   url: james.santangelo37@gmail.com
+    - label: "Scholar"
+      icon: "fab fa-fw fa-google"
+      url: https://scholar.google.com/citations?user=3Y4O9c4AAAAJ&hl=en
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/JS_Santangelo"
