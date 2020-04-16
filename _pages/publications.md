@@ -20,6 +20,6 @@ last_modified_at: April 15, 2012
 
 {% include preprints.html %}
 
-## Educational resources(not peer-reviewed)
+## Educational resources (not peer-reviewed)
 
 {% include educational-resources.html %}
