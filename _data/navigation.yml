@@ -8,11 +8,3 @@ main:
     url: /conferences/
   - title: Contact
     url: /contact/
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Landing"
-  #   url: /landing/
-  - title: "test"
-    url: /test/
