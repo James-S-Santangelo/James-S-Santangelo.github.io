@@ -24,9 +24,9 @@ feature_row:
     url: /research/
     # btn_label: "Read More"
     # btn_class: "btn--primary"
-  - image_path: /assets/images/halictid.jpg
+  - image_path: /assets/images/salix.jpg
     # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "Halictid bee pollinating clover flowers"
+    alt: "Salix flowers"
     title: "Publications"
     excerpt: "List of published papers and works in-progress"
     url: /publications/
