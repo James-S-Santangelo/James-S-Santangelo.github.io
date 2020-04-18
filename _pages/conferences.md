@@ -5,7 +5,7 @@ author_profile: true
 title: "Conference presentations"
 classes: wide
 toc: true
-last_modified_at: April 18, 2012
+last_modified_at: April 2020
 ---
 
 ## Contributed presentations
