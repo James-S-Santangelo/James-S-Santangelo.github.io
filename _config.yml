@@ -20,7 +20,7 @@ title                    : "James S. Santangelo"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "James S. Santangelo"
-description              : "An amazing website."
+description              : "PhD Candidate, Ecology and Evolutionary Biology"
 url                      : https://james-s-santangelo.github.io
 # baseurl                  : /landing
 repository               : James-S-Santangelo/James-S-Santangelo.github.io
@@ -102,9 +102,6 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: james.santangelo37@gmail.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://jssantangelo.com"
     - label: "Scholar"
       icon: "fab fa-fw fa-google"
       url: https://scholar.google.com/citations?user=3Y4O9c4AAAAJ&hl=en
