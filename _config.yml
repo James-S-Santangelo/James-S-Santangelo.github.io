@@ -98,10 +98,8 @@ author:
   bio              : "PhD Candidate in the Department of Ecology and Evolutionary Biology at the University of Toronto"
   location         : "Toronto, Canada"
   email            : james.santangelo37@gmail.com
+  cv               : /assets/docs/Santangelo_cv.pdf
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: james.santangelo37@gmail.com
     - label: "Scholar"
       icon: "fab fa-fw fa-google"
       url: https://scholar.google.com/citations?user=3Y4O9c4AAAAJ&hl=en

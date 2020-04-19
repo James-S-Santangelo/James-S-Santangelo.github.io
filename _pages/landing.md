@@ -9,7 +9,6 @@ header:
   overlay_image: /assets/images/Infl_fruit_wide.jpg
   actions:
     - label: "Download DV"
-      url: 'https://ln.sync.com/dl/c6cf40e20/k5mam7je-tkvgtvbm-5uutxr9z-hr38czpq'
   # caption: "Photo credit: James Santangelo"
 excerpt: Department of Ecology and Evolutionary Biology,<br>University of Toronto
 
