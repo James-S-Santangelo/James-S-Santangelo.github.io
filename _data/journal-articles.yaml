@@ -1,5 +1,17 @@
 ---
-- id: Santangelo2020
+- id: Santangelo2020b
+  authors: __James S. Santangelo__, L. Ruth Rivkin, Carole Advenard, Ken A. Thompson
+  title: Multivariate phenotypic divergence along an urbanization gradient
+  journal: Biology Letters
+  year: 2020
+  volume: 16
+  pages: 20200511
+  openaccess: false
+  pdf-url: https://ln3.sync.com/dl/797bb11e0/jcmwqbdk-74v7kh7z-955ddbia-3j6e3sjt
+  data-url: https://datadryad.org/stash/dataset/doi:10.5061/dryad.73n5tb2vg
+  github: https://github.com/James-S-Santangelo/sic
+
+- id: Santangelo2020a
   authors: __James S. Santangelo__, Ken A. Thompson, Beata J. Cohan, Jibran Syed, Rob W. Ness, Marc T. J. Johnson
   title: Predicting the strength of urban-rural clines in a Mendelian polymorphism along a latitudinal gradient
   journal: Evolution Letters

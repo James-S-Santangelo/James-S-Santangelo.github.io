@@ -8,7 +8,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/Infl_fruit_wide.jpg
   actions:
-    - label: "Download DV"
+    - label: "Download CV"
   # caption: "Photo credit: James Santangelo"
 excerpt: Department of Ecology and Evolutionary Biology,<br>University of Toronto
 
