@@ -1,4 +1,16 @@
 ---
+- id: Santangelo2022
+  authors: __James S. Santangelo__, The GLobal Urban Evolution Project
+  title: Global urban environmental change drives adaptation in white clover
+  journal: Science
+  year: 2022
+  volume: 
+  pages: In Press
+  openaccess: false
+  # pdf-url: 
+  data-url: https://zenodo.org/record/5780438
+  github: https://github.com/James-S-Santangelo/glue_pc
+
 - id: Santangelo2020b
   authors: __James S. Santangelo__, L. Ruth Rivkin, Carole Advenard, Ken A. Thompson
   title: Multivariate phenotypic divergence along an urbanization gradient
