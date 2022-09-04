@@ -5,7 +5,7 @@ author_profile: true
 title: "Publications"
 classes: wide
 toc: true
-last_modified_at: January 2022
+last_modified_at: September 2022
 ---
 
 ## Peer-reviewed journals
