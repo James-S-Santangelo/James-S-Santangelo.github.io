@@ -1,13 +1,37 @@
 ---
+- id: Verrelli2022
+  authors: Brian C.Verrelli, Marina Alberti, Simone Des Roches, Nyeema C. Harris, Andrew P. Hendry, Marc T. J. Johnson, Amy M. Savage, Anne Charmantier, Kiyoko M. Gotanda, Lynn Govaert, Lindsay S. Miles, L. Ruth Rivkin, Kristin M. Winchell, Kristien I. Brans, Cristian Correa, Sarah E. Diamond, Ben Fitzhugh, Nancy B. Grimm, Sara Hughes, John M. Marzluff, Jason Munshi-South, Carolina Rojas, __James S. Santangelo__, Christopher J. Schell, Jennifer A. Schweitzer, Marta Szulkin, Mark C. Urban, Yuyu Zhou, Carly Ziter
+  title: A global horizon scan for urban evolutionary ecology
+  journal: Trends in Ecology & Evolution
+  year: 2022
+  volume: In Press
+  pages: 
+  openaccess: 
+  pdf-url: 
+  data-url: 
+  github: 
+
+- id: Innes2022
+  authors: Simon G. Innes., __James S. Santangelo__, Nicholas J. Kooyers, Kenneth M. Olsen, Marc T. J. Jonhson
+  title: Evolution in response to climate in the native and introduced ranges of a globally distributed plant
+  journal: Evolution
+  year: 2022
+  volume: 76
+  pages: 1495-1511
+  openaccess: false
+  pdf-url: 
+  data-url: 
+  github: 
+
 - id: Santangelo2022
   authors: __James S. Santangelo__, plus 286 authors from The GLobal Urban Evolution Project (GLUE)
   title: Global urban environmental change drives adaptation in white clover
   journal: Science
   year: 2022
   volume: 
-  pages: abk0989
+  pages: 1275-1281
   openaccess: false
-  pdf-url: https://ln5.sync.com/dl/0204c2880/a2wba2zh-45uy6pe2-vtusut9n-n9r9n2ib
+  pdf-url: https://ln5.sync.com/dl/67c9d5b70/jnxsw3qs-dktvcs43-y7i6ug9c-7i2hh34b
   data-url: https://zenodo.org/record/5780438
   github: https://github.com/James-S-Santangelo/glue_pc
 
@@ -19,8 +43,8 @@
   volume: 16
   pages: 20200511
   openaccess: false
-  pdf-url: https://ln3.sync.com/dl/797bb11e0/jcmwqbdk-74v7kh7z-955ddbia-3j6e3sjt
-  data-url: https://datadryad.org/stash/dataset/doi:10.5061/dryad.73n5tb2vg
+  pdf-url: https://ln5.sync.com/dl/5ef50e960/p3dkz7je-nwmh5y8a-rszyi3eh-jbdc2bdf
+  data-url: https://zenodo.org/badge/latestdoi/158302079
   github: https://github.com/James-S-Santangelo/sic
 
 - id: Santangelo2020a
@@ -31,8 +55,8 @@
   volume: 4
   pages: 212-225
   openaccess: true
-  pdf-url: https://ln.sync.com/dl/57a3b0e30/sc963hr9-rhcvyky3-v2d7r4gk-tg2wjfzk
-  data-url: https://datadryad.org/stash/dataset/doi:10.5061/dryad.4j0zpc87k
+  pdf-url: https://ln5.sync.com/dl/78105efb0/5amjnaui-tm5inwhr-z7h8439x-fmnrnsmf
+  data-url: https://zenodo.org/badge/latestdoi/185809598
   github: https://github.com/James-S-Santangelo/uac
 
 - id: Santangelo2019c
@@ -43,7 +67,7 @@
   volume: 2
   pages: 6-11
   openaccess: true
-  pdf-url: https://ln.sync.com/dl/de7a8a170/dhne2kja-9yuyb4rj-yq546mdr-3umbvbui
+  pdf-url: https://ln5.sync.com/dl/e2bc7d970/ffr4sj9q-t9wd67px-xiiawugy-be6d44bt
   github: https://github.com/James-S-Santangelo/paper-rcourse
 
 - id: Santangelo2019b
@@ -54,7 +78,7 @@
   volume: 12
   pages: 384-398
   openaccess: false
-  pdf-url: https://ln.sync.com/dl/3d7a9efc0/7huz7gcy-ih94kr88-95xstc4q-app7n4mx
+  pdf-url: https://ln5.sync.com/dl/f6b4fa010/859mh995-qvj57qkf-423cshut-g7jhhgsy
 
 - id: Santangelo2019a
   authors: __James S. Santangelo__, Ken A. Thompson, Marc T. J. Johnson
@@ -64,8 +88,8 @@
   volume: 32
   pages: 4-18
   openaccess: false
-  pdf-url: https://ln.sync.com/dl/2af928050/bj8adhg6-9zy72hna-dr4xujcn-j8bnu4wx
-  data-url: https://datadryad.org/stash/dataset/doi:10.5061/dryad.h6qg003
+  pdf-url: https://ln5.sync.com/dl/f183cc580/x37eqfn6-9jhayqs6-fau69pui-n4te4h6t
+  data-url: https://zenodo.org/badge/latestdoi/130268377
   github: https://github.com/James-S-Santangelo/HPS_Herbivore-Pollinator-Selection
 
 - id: Santangelo2018b
@@ -76,7 +100,7 @@
   volume: 285
   pages: 20181529
   openaccess: false
-  pdf-url: https://ln.sync.com/dl/52540ee90/49twb65c-a9yirr3s-3gv2ekv4-5z978f27
+  pdf-url: https://ln5.sync.com/dl/572714f00/kjf4bqhm-xcb7fdgp-esum2xtd-2bqzdgyk
 
 - id: Santangelo2018a
   authors: __James S. Santangelo__, Marc T. J. Johnson, and Rob W. Ness
@@ -86,8 +110,8 @@
   volume: 285
   pages: 20180230
   openaccess: false
-  pdf-url: https://ln.sync.com/dl/ed129ac70/jkuv6wiq-wbi8djmu-7s2r5gz4-vvkxfqrk
-  data-url: https://datadryad.org/stash/dataset/doi:10.5061/dryad.6nv2t4p
+  pdf-url: https://ln5.sync.com/dl/040e2c980/x6mfwvvh-h2tf4aeu-u5unms6r-fh4vakwn
+  data-url: https://zenodo.org/badge/latestdoi/89018655
   github: https://github.com/James-S-Santangelo/Simulating-Evolutionary-Clines-SEC-
 
 - id: Cadotte2017
@@ -98,7 +122,7 @@
   volume: 98
   pages: 3175-3187
   openaccess: false
-  pdf-url: https://ln.sync.com/dl/ae024e140/jwegdvn2-5gkfyu5t-n4qtungk-zqvz2z9u
+  pdf-url: https://ln5.sync.com/dl/ef4ae11d0/eamcnqyf-itu7pw77-6ndqc7z2-ac4z4wiu
 
 - id: Santangelo2016
   authors: __James S. Santangelo__, and Peter M. Kotanen
@@ -108,7 +132,7 @@
   volume: 7
   pages: e01260
   openaccess: true
-  pdf-url: https://ln.sync.com/dl/da715a610/bdteshu9-dh7z3zhc-g6fa3vmh-zea3vigx
+  pdf-url: https://ln5.sync.com/dl/7f9edbe60/tq7dkhb9-dfx2gzrh-je2f95zt-b6jmvpw2
 
 - id: Santangelo2015
   authors: __James S. Santangelo__, Nash E. Turley, and Marc T. J. Johnson
@@ -118,6 +142,6 @@
   volume: 93
   pages: 223-241
   openaccess: false
-  pdf-url: https://ln.sync.com/dl/44b777600/w7r5vkvn-cm6e2f53-diqs9mge-jxfwbyv2
+  pdf-url: https://ln5.sync.com/dl/e29cfe670/xmg29tqw-47h39c5q-hbencgqx-szws2b3d
   data-url: https://datadryad.org/stash/dataset/doi:10.5061/dryad.24d1b
 ---
