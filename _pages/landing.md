@@ -1,5 +1,5 @@
 ---
-title: "PhD Candidate"
+title: "PhD"
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
@@ -13,7 +13,7 @@ header:
 excerpt: Department of Ecology and Evolutionary Biology,<br>University of Toronto
 
 intro:
-  - excerpt: '_I am currently a PhD candidate in the department of Ecology and Evolutionary Biology at the University of Toronto working with [Marc Johnson](https://evoecolab.wordpress.com/){:target="_blank"} and [Rob Ness](https://www.ness.bio){:target="_blank"}. I am using urban environments as large-scale, naturally replicated environments to examine the extent of parallel phenotypic and genomic evolution in nature using white clover (Trifolium repens) as a model system_'
+  - excerpt: '_I recently completed my PhD in the department of Ecology and Evolutionary Biology at the University of Toronto working with [Marc Johnson](https://evoecolab.wordpress.com/){:target="_blank"} and [Rob Ness](https://www.ness.bio){:target="_blank"}. I am using urban environments as large-scale, naturally replicated environments to examine the extent of parallel phenotypic and genomic evolution in nature using white clover (Trifolium repens) as a model system_'
 
 feature_row:
   - image_path: assets/images/squill.jpg
