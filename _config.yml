@@ -20,7 +20,7 @@ title                    : "James S. Santangelo"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "James S. Santangelo"
-description              : "PhD Candidate, Ecology and Evolutionary Biology"
+description              : "PhD"
 url                      : https://james-s-santangelo.github.io
 # baseurl                  : /landing
 repository               : James-S-Santangelo/James-S-Santangelo.github.io
@@ -95,14 +95,14 @@ analytics:
 author:
   name             : "James S. Santangelo"
   avatar           : "assets/images/Me-in-greenhouse.jpeg"
-  bio              : "PhD Candidate in the Department of Ecology and Evolutionary Biology at the University of Toronto"
+  bio              : "PhD, Department of Ecology and Evolutionary Biology at the University of Toronto"
   location         : "Toronto, Canada"
   email            : james.santangelo37@gmail.com
   cv               : /assets/docs/Santangelo_cv.pdf
   links:
     - label: "Scholar"
       icon: "fab fa-fw fa-google"
-      url: https://scholar.google.com/citations?user=3Y4O9c4AAAAJ&hl=en
+      url: "https://scholar.google.com/citations?user=3Y4O9c4AAAAJ&hl=en"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/JS_Santangelo"
@@ -118,7 +118,7 @@ footer:
   links:
     - label: "Scholar"
       icon: "fab fa-fw fa-google"
-      url: https://scholar.google.com/citations?user=3Y4O9c4AAAAJ&hl=en
+      url: "https://scholar.google.com/citations?user=3Y4O9c4AAAAJ&hl=en"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/JS_Santangelo"
