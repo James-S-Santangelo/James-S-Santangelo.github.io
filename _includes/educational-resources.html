@@ -3,7 +3,7 @@
   <li>
     <p>
       <p>
-        {{ paper.authors | markdownify | | remove: "<p>" | remove: "</p>"}}, {{ paper.year }}. {{ paper.title | markdownify | | remove: "<p>" | remove: "</p>"}}, <em>{{ paper.publisher }}</em>. {% if paper.url %}<a href="{{ paper.url }}" target="_blank"><i class="fas fa-link"></i></a>{% endif %}
+        {{ paper.authors | markdownify | | remove: "<p>" | remove: "</p>" | strip }}. {{ paper.year }}. {{ paper.title | markdownify | | remove: "<p>" | remove: "</p>" | strip }}, <em>{{ paper.publisher }}</em>. {% if paper.url %}<a href="{{ paper.url }}" target="_blank"><i class="fas fa-link"></i></a>{% endif %}
       </p>
       </p>
   </li>

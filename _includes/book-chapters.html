@@ -2,7 +2,8 @@
   {% for paper in site.data.book-chapters %}
   <li>
       <p>
-        {{ paper.authors | markdownify | | remove: "<p>" | remove: "</p>"}}, {{ paper.year }}. {{ paper.title | markdownify | | remove: "<p>" | remove: "</p>"}}, In: <em>{{ paper.booktitle }}</em>. Edited by: {{paper.editors}}. pp. {{ paper.pages }}. {{paper.publisher}}.
+        {{ paper.authors | markdownify | | remove: "<p>" | remove: "</p>" | strip }}. {{ paper.year }}. {{ paper.title | markdownify | | remove: "<p>" | remove: "</p>" | strip }}, In: <em>{{ paper.booktitle }}</em>. Edited by: {{paper.editors}}. pp. {{ paper.pages }}. {{paper.publisher}}.
+        {% if paper.pdf-url %}<a href="{{ paper.pdf-url }}" target="_blank"><i class="far fa-file-pdf"></i></a>{% endif %}
       </p>
   </li>
   {% endfor %}
