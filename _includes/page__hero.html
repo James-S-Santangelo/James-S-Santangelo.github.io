@@ -1,4 +1,6 @@
 {% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
+{% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
 
 {% if page.header.overlay_filter contains "rgba" %}
   {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
@@ -37,12 +39,9 @@
       {% if page.header.cta_url %}
         <p><a href="{{ page.header.cta_url | relative_url }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
       {% endif %}
-      {% if page.header.actions %}
-        <p>
-        {% for action in page.header.actions %}
-          <a href="/assets/docs/Santangelo_cv.pdf" download class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
-        {% endfor %}
-      {% endif %}
+      <p>
+        <a href="{{ author.cv }}" download class="btn btn--light-outline btn--large">Download CV</a>
+        <a href="mailto:{{ author.email }}" download class="btn btn--light-outline btn--large">Email</a>
     </div>
   {% else %}
     <img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
