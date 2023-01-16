@@ -1,4 +1,11 @@
 ---
+- id: ul2022
+  conference: Seminar Series
+  location: University of Louisiana Lafayette
+  type: Talk
+  year: 2022
+  url: https://ln5.sync.com/dl/6ef089760/rskh355f-ap8uaicb-ty56x55k-eeia5j7r
+
 - id: rcn2022
   conference: Seminar Series
   location: NSF RCN on Urban Evolutionary Ecology (virtual)

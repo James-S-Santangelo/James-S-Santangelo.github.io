@@ -1,5 +1,5 @@
 ---
-title: "PhD"
+title: "Postdoctoral Fellow"
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
@@ -11,10 +11,10 @@ header:
     - label: "Download CV"
     - label: "Email"
   # caption: "Photo credit: James Santangelo"
-excerpt: Department of Ecology and Evolutionary Biology,<br>University of Toronto
+excerpt: Department of Integrative Biology,<br>University of California, Berkeley
 
 intro:
-  - excerpt: '_I recently completed my PhD in the department of Ecology and Evolutionary Biology at the University of Toronto working with [Marc Johnson](https://evoecolab.wordpress.com/){:target="_blank"} and [Rob Ness](https://www.ness.bio){:target="_blank"}. I am using urban environments as large-scale, naturally replicated environments to examine the extent of parallel phenotypic and genomic evolution in nature using white clover (Trifolium repens) as a model system_'
+  - excerpt: '_I recently completed my PhD in the department of Ecology and Evolutionary Biology at the University of Toronto working with [Marc Johnson](https://evoecolab.wordpress.com/){:target="_blank"} and [Rob Ness](https://www.ness.bio){:target="_blank"} where I used urban environments as large-scale, naturally replicated environments to examine the extent of parallel phenotypic and genomic evolution in nature using white clover (Trifolium repens) as a model system. I am currently a postdoc with [Rasmus Nielsen](https://nielsen-lab.github.io/){:target="_blank"} where I am investigating genome-wide signatures of natural selection associated with urbanization and developing methods to estimate the strength of selection along environmental gradients using whole genome sequence data._'
 
 feature_row:
   - image_path: assets/images/squill.jpg

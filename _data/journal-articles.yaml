@@ -1,12 +1,24 @@
 ---
+- id: Santangelo2022b
+  authors: __Santangelo, James S.__, Cindy Roux, Marc T. J. Johnson
+  title: The effects of environmental hetergeneity on the evolution of clines within a city
+  journal: Journal of Ecology
+  year: 2022
+  volume: 110
+  pages: 2950-2959
+  openaccess: false
+  pdf-url: https://ln5.sync.com/dl/022934660/dvss2vmh-fhsk34yy-ccihze5g-rsurjkmk
+  data-url: https://zenodo.org/record/7093196
+  github: https://github.com/James-S-Santangelo/umc
+
 - id: Verrelli2022
   authors: Brian C.Verrelli, Marina Alberti, Simone Des Roches, Nyeema C. Harris, Andrew P. Hendry, Marc T. J. Johnson, Amy M. Savage, Anne Charmantier, Kiyoko M. Gotanda, Lynn Govaert, Lindsay S. Miles, L. Ruth Rivkin, Kristin M. Winchell, Kristien I. Brans, Cristian Correa, Sarah E. Diamond, Ben Fitzhugh, Nancy B. Grimm, Sara Hughes, John M. Marzluff, Jason Munshi-South, Carolina Rojas, __James S. Santangelo__, Christopher J. Schell, Jennifer A. Schweitzer, Marta Szulkin, Mark C. Urban, Yuyu Zhou, Carly Ziter
   title: A global horizon scan for urban evolutionary ecology
   journal: Trends in Ecology & Evolution
   year: 2022
-  volume:
-  pages: (In Press)
-  openaccess: 
+  volume: 37
+  pages: 1006-1019
+  openaccess: false
   pdf-url: 
   data-url: 
   github: 
@@ -23,7 +35,7 @@
   data-url: 
   github: 
 
-- id: Santangelo2022
+- id: Santangelo2022a
   authors: __James S. Santangelo__, plus 286 authors from The GLobal Urban Evolution Project (GLUE)
   title: Global urban environmental change drives adaptation in white clover
   journal: Science

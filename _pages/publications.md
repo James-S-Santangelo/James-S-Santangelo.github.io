@@ -5,7 +5,7 @@ author_profile: true
 title: "Publications"
 classes: wide
 toc: true
-last_modified_at: September 2022
+last_modified_at: January 2023
 
 gallery:
   - url: https://ln5.sync.com/dl/67c9d5b70/jnxsw3qs-dktvcs43-y7i6ug9c-7i2hh34b
