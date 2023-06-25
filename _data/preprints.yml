@@ -1,1 +1,9 @@
+- id: Santangelo2023 
+  authors: __James S. Santangelo__, Paul Battlay, Brandon T. Hendrickson, Wen-Hsi Kuo, Kenneth M. Olsen, Nicholas J. Kooyers, Marc T.J. Johnson, Kathryn A. Hodgins, Rob. W. Ness
+  title: Haplotype-resolved, chromosome-level assembly of white clover (_Trifolium repens_ L., Fabaceae)
+  journal: BioRxiv
+  year: 2023
+  openaccess: true
+  pdf-url: https://www.biorxiv.org/content/10.1101/2023.06.06.543960v2 
+  github: https://github.com/James-S-Santangelo/dcg
 

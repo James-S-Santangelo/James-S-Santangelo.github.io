@@ -1,4 +1,11 @@
 ---
+- id: csee2023 
+  conference: CSEE
+  location: Winnipeg, Canada 
+  type: Talk
+  year: 2023
+  url: https://ln5.sync.com/dl/d6f57cb70/9ba8fq65-q2ff8s4f-ekvm7dva-khze5qt9
+
 - id: eseb2022
   conference: ESEB
   location: Prague, Czech Republic

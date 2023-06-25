@@ -28,9 +28,9 @@ gallery:
 
 {% include book-chapters.html %}
 
-<!-- ## Preprints
+## Preprints
 
-{% include preprints.html %} -->
+{% include preprints.html %}
 
 ## Educational resources (not peer-reviewed)
 
