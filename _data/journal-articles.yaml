@@ -1,4 +1,16 @@
 ---
+- id: Santangelo2023
+  authors: __James S. Santangelo__, Paul Battlay, Brandon T. Hendrickson, Wen Hsi-Kuo, Kenneth M. Olsen, Nicholas J. Kooyers, Marc T. J. Johnson, Kathryn A. Hodgins, Rob W. Ness
+  title: Haplotype-Resolved, Chromosome-Level Assembly of White Clover (_Trifolium repens_ L., Fabaceae)
+  journal: Genome Biology and Evolution
+  year: 2023
+  volume: 15
+  pages: evad146
+  openacess: true
+  pdf-url: https://www.dropbox.com/scl/fi/1poqinaevfnrhe74zhwpx/Santangelo-et-al.-2023-Haplotype-Resolved-Chromosome-Level-Assembly-of-White-Clover-Trifolium-repens-L.-Fabaceae.pdf?rlkey=ejl8k79e31pal06lmidb4qykm&dl=0
+  data-url: https://doi.org/10.5281/zenodo.8180534
+  github: https://github.com/James-S-Santangelo/dcg
+
 - id: Santangelo2022b
   authors: __Santangelo, James S.__, Cindy Roux, Marc T. J. Johnson
   title: The effects of environmental hetergeneity on the evolution of clines within a city
@@ -7,7 +19,7 @@
   volume: 110
   pages: 2950-2959
   openaccess: false
-  pdf-url: https://ln5.sync.com/dl/022934660/dvss2vmh-fhsk34yy-ccihze5g-rsurjkmk
+  pdf-url: https://www.dropbox.com/scl/fi/xgsv1v04ml8ub4vxlu9tv/Journal-of-Ecology-2022-Santangelo-The-effects-of-environmental-heterogeneity-within-a-city-on-the-evolution-of.pdf?rlkey=gdid5e3edi00oyomw5c9tlk3q&dl=0
   data-url: https://zenodo.org/record/7093196
   github: https://github.com/James-S-Santangelo/umc
 
@@ -19,7 +31,7 @@
   volume: 37
   pages: 1006-1019
   openaccess: false
-  pdf-url: 
+  pdf-url: https://www.dropbox.com/scl/fi/e0fbpk6dx43bnfgfj07u2/Verrelli-et-al.-2022-A-global-horizon-scan-for-urban-evolutionary-ecology.pdf?rlkey=n5sh4m9e3vpcf2ie46mpz8q4h&dl=0
   data-url: 
   github: 
 
@@ -31,7 +43,7 @@
   volume: 76
   pages: 1495-1511
   openaccess: false
-  pdf-url: 
+  pdf-url: https://www.dropbox.com/scl/fi/3sr7pfijmxj1dsarzx0ri/Innes-et-al.-2022-Evolution-in-response-to-climate-in-the-native-and-introduced-ranges-of-a-globally-distributed-plant.pdf?rlkey=i1k4sqlpjukjfqinw4fc5ja2z&dl=0
   data-url: 
   github: 
 
@@ -43,7 +55,7 @@
   volume: 
   pages: 1275-1281
   openaccess: false
-  pdf-url: https://ln5.sync.com/dl/67c9d5b70/jnxsw3qs-dktvcs43-y7i6ug9c-7i2hh34b
+  pdf-url: https://www.dropbox.com/scl/fi/jhoatblsbr16r6eh34u4t/Santangelo-et-al.-2022-Global-urban-environmental-change-drives-adaptation-in-white-clover.pdf?rlkey=gb6dgskpvc1sueoc3wmf50qtg&dl=0
   data-url: https://zenodo.org/record/5780438
   github: https://github.com/James-S-Santangelo/glue_pc
 
@@ -55,7 +67,7 @@
   volume: 16
   pages: 20200511
   openaccess: false
-  pdf-url: https://ln5.sync.com/dl/5ef50e960/p3dkz7je-nwmh5y8a-rszyi3eh-jbdc2bdf
+  pdf-url: https://www.dropbox.com/scl/fi/h63l5tsb2ca5rho8q4eni/Santangelo-et-al.-2020-Multivariate-phenotypic-divergence-along-an-urbanization-gradient.pdf?rlkey=kgb2ov6v6ohff3wgc4rdj9vfu&dl=0
   data-url: https://zenodo.org/badge/latestdoi/158302079
   github: https://github.com/James-S-Santangelo/sic
 
@@ -67,7 +79,7 @@
   volume: 4
   pages: 212-225
   openaccess: true
-  pdf-url: https://ln5.sync.com/dl/78105efb0/5amjnaui-tm5inwhr-z7h8439x-fmnrnsmf
+  pdf-url: https://www.dropbox.com/scl/fi/v80cefwfhlc9ibv5e9xmh/Santangelo-et-al.-2020-Predicting-the-strength-of-urban-rural-clines-in-a-Mendelian-polymorphism-along-a-latitudinal-gradient.pdf?rlkey=6suh8rtbcm3f47c9d0e0398kx&dl=0
   data-url: https://zenodo.org/badge/latestdoi/185809598
   github: https://github.com/James-S-Santangelo/uac
 
@@ -79,10 +91,10 @@
   volume: 2
   pages: 6-11
   openaccess: true
-  pdf-url: https://ln5.sync.com/dl/e2bc7d970/ffr4sj9q-t9wd67px-xiiawugy-be6d44bt
+  pdf-url: https://www.dropbox.com/scl/fi/jxv650xmbhb7algtiaog2/Johnston-et-al.-2019-A-graduate-student-led-participatory-live-coding-quantitative-methods-course-in-R-Experiences-on-initiating-de.pdf?rlkey=ghbde2z3yvnmznkclw7wv8ref&dl=0
   github: https://github.com/James-S-Santangelo/paper-rcourse
 
-- id: Santangelo2019b
+- id: Rivkin2019
   authors: L. Ruth Rivkin, __James S. Santangelo__, Marina Alberti, Myla F. J. Aronson, Charlotte W. de Keyzer, Sarah E. Diamond, Marie-Josée Fortin, Lauren J. Frazee, Amanda J. Gorton, Andrew P. Hendry, Yang Liu, Jonathan B. Josos, J. Scott MacIvor, Ryan A. Martin, Mark J. McDonnell, Lindsay S. Miles, Jason Munshi-South, Robert W. Ness, Amy E. M. Newman, Mason R. Stothart, Panagiotis Theodorou, Ken A. Thompson, Brian C. Verrelli, Andrew Whitehead, Kristin M. Winchell, Marc T. J. Johnson
   title: A roadmap for urban evolutionary ecology
   journal: Evolutionary Applications
@@ -90,9 +102,9 @@
   volume: 12
   pages: 384-398
   openaccess: false
-  pdf-url: https://ln5.sync.com/dl/f6b4fa010/859mh995-qvj57qkf-423cshut-g7jhhgsy
+  pdf-url: https://www.dropbox.com/scl/fi/3096x6d37gx4hoj062d7i/Rivkin-et-al.-2019-A-roadmap-for-urban-evolutionary-ecology.pdf?rlkey=h7hty4kp0ebtnkomec2h2i4md&dl=0
 
-- id: Santangelo2019a
+- id: Santangelo2019
   authors: __James S. Santangelo__, Ken A. Thompson, Marc T. J. Johnson
   title: Herbivores and plant defenses affect selection on plant reproductive traits more strongly than pollinators
   journal: Journal of Evolutionary Biology
@@ -100,7 +112,7 @@
   volume: 32
   pages: 4-18
   openaccess: false
-  pdf-url: https://ln5.sync.com/dl/f183cc580/x37eqfn6-9jhayqs6-fau69pui-n4te4h6t
+  pdf-url: https://www.dropbox.com/scl/fi/x2jvdiqqks5praop3d2zy/Santangelo-Thompson-Johnson-2018-Herbivores-and-plant-defenses-affect-selection-on-plant-reproductive-traits-more-strongly-than-po.pdf?rlkey=t80wx6mmjk94kpgl92hd0q08t&dl=0
   data-url: https://zenodo.org/badge/latestdoi/130268377
   github: https://github.com/James-S-Santangelo/HPS_Herbivore-Pollinator-Selection
 
@@ -112,7 +124,7 @@
   volume: 285
   pages: 20181529
   openaccess: false
-  pdf-url: https://ln5.sync.com/dl/572714f00/kjf4bqhm-xcb7fdgp-esum2xtd-2bqzdgyk
+  pdf-url: https://www.dropbox.com/scl/fi/wj10ruytw3r04wzp3drz3/Santangelo-Rivkin-Johnson-2018-The-evolution-of-city-life.pdf?rlkey=w12cdwun4ew60vk5xxenphx2j&dl=0
 
 - id: Santangelo2018a
   authors: __James S. Santangelo__, Marc T. J. Johnson, and Rob W. Ness
@@ -122,7 +134,7 @@
   volume: 285
   pages: 20180230
   openaccess: false
-  pdf-url: https://ln5.sync.com/dl/040e2c980/x6mfwvvh-h2tf4aeu-u5unms6r-fh4vakwn
+  pdf-url: https://www.dropbox.com/scl/fi/e43ppzkpwp043fl5r9h9s/Santangelo-Johnson-Ness-2018-Modern-spandrels-the-roles-of-genetic-drift-gene-flow-and-natural-selection-in-the-evolution-of-para.pdf?rlkey=897yvckmsumwpbt0ncloj0nvz&dl=0
   data-url: https://zenodo.org/badge/latestdoi/89018655
   github: https://github.com/James-S-Santangelo/Simulating-Evolutionary-Clines-SEC-
 
@@ -134,7 +146,7 @@
   volume: 98
   pages: 3175-3187
   openaccess: false
-  pdf-url: https://ln5.sync.com/dl/ef4ae11d0/eamcnqyf-itu7pw77-6ndqc7z2-ac4z4wiu
+  pdf-url: https://www.dropbox.com/scl/fi/acjo9f4yu27578cqgvpq0/Cadotte-et-al.-2017-Explaining-ecosystem-multifunction-with-evolutionary-models.pdf?rlkey=2y1bzqmylolj8zs1vcp376v87&dl=0
 
 - id: Santangelo2016
   authors: __James S. Santangelo__, and Peter M. Kotanen
@@ -144,7 +156,7 @@
   volume: 7
   pages: e01260
   openaccess: true
-  pdf-url: https://ln5.sync.com/dl/7f9edbe60/tq7dkhb9-dfx2gzrh-je2f95zt-b6jmvpw2
+  pdf-url: https://www.dropbox.com/scl/fi/jo23h0fj3dtosy4cst27f/Santangelo-Kotanen-2016-Nonsystemic-fungal-endophytes-increase-survival-but-reduce-tolerance-to-simulated-herbivory-in-subarctic-iF.pdf?rlkey=tcdpryicqy6fy68zgjng3vugx&dl=0
 
 - id: Santangelo2015
   authors: __James S. Santangelo__, Nash E. Turley, and Marc T. J. Johnson
@@ -154,6 +166,6 @@
   volume: 93
   pages: 223-241
   openaccess: false
-  pdf-url: https://ln5.sync.com/dl/e29cfe670/xmg29tqw-47h39c5q-hbencgqx-szws2b3d
+  pdf-url: https://www.dropbox.com/scl/fi/e8fxumrgl54z8p58hid63/Santangelo-Turley-Johnson-2015-Fungal-endophytes-of-iFestuca-rubrai-increase-in-frequency-following-long-term-exclusion-of-rabbits.pdf?rlkey=6b60ahicxxelr2x8pnlr1mzqo&dl=0
   data-url: https://datadryad.org/stash/dataset/doi:10.5061/dryad.24d1b
 ---

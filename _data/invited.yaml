@@ -1,31 +1,45 @@
 ---
+- id: gap2023
+  conference: Genomes of Animals and Plants
+  location: Dovetail Genomics (Virtual)
+  type: talk
+  year: 2023
+  url: https://www.dropbox.com/scl/fi/i1m3tqoi1gawk3wpw5565/20230920_Dovetail_GAP.pdf?rlkey=kivbpytntjfv0wfrorndslng6&dl=0
+
+- id: ecss2023
+  conference: Early Career Scientist Symposium
+  location: University of Michigan
+  type: talk
+  year: 2023
+  url: https://www.dropbox.com/scl/fi/g131lmv6wsen4o7afs7b5/20230331_UMich-ECSS.pdf?rlkey=jd5kz47ppyqb7i2z4xh8bm91p&dl=0
+
 - id: ul2022
   conference: Seminar Series
   location: University of Louisiana Lafayette
   type: Talk
   year: 2022
-  url: https://ln5.sync.com/dl/6ef089760/rskh355f-ap8uaicb-ty56x55k-eeia5j7r
+  url: https://www.dropbox.com/scl/fi/w9v1lec7ntkqbok1agqj3/20221110_UL_Lafayette_seminar.pdf?rlkey=z1f64elun4e7zwbdlcqjo32qg&dl=0
 
 - id: rcn2022
   conference: Seminar Series
   location: NSF RCN on Urban Evolutionary Ecology (virtual)
   type: Talk
   year: 2022
-  url: https://ln5.sync.com/dl/70d762dc0/95q7jvt2-658dtsca-rc3kgzt6-wp64vjx3
+  url: https://www.dropbox.com/scl/fi/mij2o1lk4oy1r2pf79hxe/20220215_NSF-RCN-seminar.pdf?rlkey=e6a275h0tsd5vxgyig80xaswq&dl=0
 
 - id: utm2021
   conference: Departmental Seminar
   location: University of Toronto Mississauga (virtual)
   type: Talk
   year: 2021
-  url: https://ln5.sync.com/dl/6aee82a20/hp8pkhwi-w77ugkky-b8adhpag-whjs2nfz
+  url: https://www.dropbox.com/scl/fi/idbmv5hdtza9snlg84ph9/20210910_Departmental-seminar_UTMbiology.pdf?rlkey=hlaxbai8ugfzgn3hhfy2fl3vu&dl=0
 
 - id: harvard2018
   conference: Next in Evolution
   location: Radcliffe Institute, Harvard University
   type: Talk
   year: 2018
-  url: https://ln5.sync.com/dl/c746fe5c0/69cvr8g4-z9eqm4ep-wg8bfpak-thfaqupi
+  url: https://www.dropbox.com/scl/fi/6t04ikj6pdm7jkeb1jb2z/SantangeloJamesUofT_Evolution2019.pdf?rlkey=0dtbsg9n1n3pnwmqdvvd58dz8&dl=0
   video: https://www.youtube.com/watch?v=ytIfCLgv6bg&t=5s
 
 - id: newphyt2017
@@ -33,5 +47,5 @@
   location: University of Toronto Mississauga
   type: Talk
   year: 2017
-  url: https://ln5.sync.com/dl/366fedac0/s4rmhak3-6kee6rff-b29v2dxp-sjesuk6z
+  url: https://www.dropbox.com/scl/fi/mi7c8nnstpsf3j70o7xzv/Santangelo_Synthesis.in.the.City.pdf?rlkey=epq12aucavytol4ex9pik500u&dl=0
 ---

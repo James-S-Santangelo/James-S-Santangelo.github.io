@@ -5,14 +5,14 @@ author_profile: true
 title: "Publications"
 classes: wide
 toc: true
-last_modified_at: March 2023
+last_modified_at: September 2023 
 
 gallery:
-  - url: https://ln5.sync.com/dl/67c9d5b70/jnxsw3qs-dktvcs43-y7i6ug9c-7i2hh34b
+  - url: https://www.dropbox.com/scl/fi/jhoatblsbr16r6eh34u4t/Santangelo-et-al.-2022-Global-urban-environmental-change-drives-adaptation-in-white-clover.pdf?rlkey=gb6dgskpvc1sueoc3wmf50qtg&dl=0
     image_path: /assets/images/science_cover.jpg
     # alt: "placeholder image 1"
     # title: "Image 1 title caption"
-  - url: https://ln5.sync.com/dl/f183cc580/x37eqfn6-9jhayqs6-fau69pui-n4te4h6t
+  - url: https://www.dropbox.com/scl/fi/x2jvdiqqks5praop3d2zy/Santangelo-Thompson-Johnson-2018-Herbivores-and-plant-defenses-affect-selection-on-plant-reproductive-traits-more-strongly-than-po.pdf?rlkey=t80wx6mmjk94kpgl92hd0q08t&dl=0
     image_path: /assets/images/jeb_cover.jpg
     # alt: "placeholder image 1"
     # title: "Image 1 title caption"
@@ -28,9 +28,9 @@ gallery:
 
 {% include book-chapters.html %}
 
-## Preprints
+<!-- ## Preprints -->
 
-{% include preprints.html %}
+<!-- {% include preprints.html %} -->
 
 ## Educational resources (not peer-reviewed)
 
