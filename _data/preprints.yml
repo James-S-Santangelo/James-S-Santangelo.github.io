@@ -1,9 +1,8 @@
-# - id: Santangelo2023 
-#   authors: __James S. Santangelo__, Paul Battlay, Brandon T. Hendrickson, Wen-Hsi Kuo, Kenneth M. Olsen, Nicholas J. Kooyers, Marc T.J. Johnson, Kathryn A. Hodgins, Rob. W. Ness
-  # title: Haplotype-resolved, chromosome-level assembly of white clover (_Trifolium repens_ L., Fabaceae)
-  # journal: BioRxiv
-  # year: 2023
-  # openaccess: true
-  # pdf-url: https://www.biorxiv.org/content/10.1101/2023.06.06.543960v2 
-  # github: https://github.com/James-S-Santangelo/dcg
+- id: Caizergues2023 
+  authors: Aude E. Caizergues, __James S. Santangelo__, Rob W. Ness, Fabio Angeoletto, Daniel Anstett, Julia Anstett, Fernanda Baena-Diaz, Elizabeth J. Carlen, Jaime A. Chaves, Mattheau S. Comerford, Karen Dyson, Mohsen Falahati-Anbaran, Mark D.E. Fellowes, Kathryn A. Hodgins, Glen R. Hood, Carlos Iñiguez-Armijos, Nicholas J. Kooyers, Adrián Lázaro-Lobo, Angela T. Moles, Jason Munshi-South, Juraj Paule, Ilga M. Porth, Luis Y. Santiago-Rosario, Kaitlin Stack Whitney, Ayko J.M. Tack, Marc T.J. Johnson
+  title: Does urbanization lead to parallel demographic shifts across the world in a cosmopolitan plant?
+  journal: BioRxiv
+  year: 2023
+  openaccess: true
+  pdf-url: https://www.biorxiv.org/content/10.1101/2023.08.14.552623v1.abstract
 
