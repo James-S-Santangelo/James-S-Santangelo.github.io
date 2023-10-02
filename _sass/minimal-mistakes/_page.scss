@@ -104,6 +104,13 @@ body {
 			opacity: 1;
 		}
 	}
+  
+  img + em {
+      display: block;
+      text-align: center;
+      font-style: normal;
+      font-size: smaller;
+}
 
   p,
   li,
