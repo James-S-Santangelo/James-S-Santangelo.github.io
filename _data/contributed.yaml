@@ -1,4 +1,11 @@
 ---
+- id: evol2024
+  conference: Evolution joint congress
+  location: Montreal, Canada 
+  type: Talk
+  year: 2024
+  url: https://www.dropbox.com/scl/fi/63f29np6rz4gi6mdf8h5u/20240727_SSE-ESEB_Montreal.pptx?rlkey=oy388ilan49vi4xdlfimbqhzw&dl=0
+
 - id: csee2023 
   conference: CSEE
   location: Winnipeg, Canada 

@@ -1,4 +1,10 @@
 ---
+- id: UofO2024 
+  conference: Departmental seminar
+  location: University of Ottawa 
+  type: talk
+  year: 2024
+
 - id: gap2023
   conference: Genomes of Animals and Plants
   location: Dovetail Genomics (Virtual)
@@ -12,6 +18,12 @@
   type: talk
   year: 2023
   url: https://www.dropbox.com/scl/fi/g131lmv6wsen4o7afs7b5/20230331_UMich-ECSS.pdf?rlkey=jd5kz47ppyqb7i2z4xh8bm91p&dl=0
+
+- id: UdeM 
+  conference: Departmental seminar
+  location: University of Montreal
+  type: talk
+  year: 2023
 
 - id: ul2022
   conference: Seminar Series
