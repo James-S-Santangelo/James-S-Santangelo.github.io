@@ -1,7 +1,19 @@
 ---
+- id: Berk2024_2 
+  conference: Departmental seminar
+  location: Dept. of Integrative Biology, UC Berkeley 
+  type: talk
+  year: 2024
+
+- id: Berk2025_1 
+  conference: Cal Genomics Summe Research Experience 
+  location: UC Berkeley 
+  type: talk
+  year: 2024
+
 - id: UofO2024 
   conference: Departmental seminar
-  location: University of Ottawa 
+  location: Dept. of Biology, University of Ottawa 
   type: talk
   year: 2024
 
@@ -21,13 +33,13 @@
 
 - id: UdeM 
   conference: Departmental seminar
-  location: University of Montreal
+  location: Dept. of Biology, University of Montreal
   type: talk
   year: 2023
 
 - id: ul2022
   conference: Seminar Series
-  location: University of Louisiana Lafayette
+  location: Dept. of Biology, University of Louisiana Lafayette
   type: Talk
   year: 2022
   url: https://www.dropbox.com/scl/fi/w9v1lec7ntkqbok1agqj3/20221110_UL_Lafayette_seminar.pdf?rlkey=z1f64elun4e7zwbdlcqjo32qg&dl=0
@@ -41,7 +53,7 @@
 
 - id: utm2021
   conference: Departmental Seminar
-  location: University of Toronto Mississauga (virtual)
+  location: Dept. of Biology, University of Toronto Mississauga (virtual)
   type: Talk
   year: 2021
   url: https://www.dropbox.com/scl/fi/idbmv5hdtza9snlg84ph9/20210910_Departmental-seminar_UTMbiology.pdf?rlkey=hlaxbai8ugfzgn3hhfy2fl3vu&dl=0
