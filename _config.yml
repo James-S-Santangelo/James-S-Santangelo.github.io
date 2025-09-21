@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
+remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -101,23 +101,23 @@ author:
   cv               : /assets/docs/Santangelo_cv.pdf
   links:
     - label: "Scholar"
-      icon: "fab fa-fw fa-google"
+      icon: "fa-brands fa-google-scholar"
       url: "https://scholar.google.com/citations?user=3Y4O9c4AAAAJ&hl=en"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-brands fa-github"
       url: "https://github.com/James-S-Santangelo"
     - label: "ORCID"
-      icon: "fab fa-fw fa-orcid"
+      icon: "fa-brands fa-orcid"
       url: "https://orcid.org/0000-0002-5921-2548"
 
 # Site Footer
 footer:
   links:
     - label: "Scholar"
-      icon: "fab fa-fw fa-google"
+      icon: "fa-brands fa-google"
       url: "https://scholar.google.com/citations?user=3Y4O9c4AAAAJ&hl=en"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-brands fa-github"
       url: "https://github.com/James-S-Santangelo"
 
 
