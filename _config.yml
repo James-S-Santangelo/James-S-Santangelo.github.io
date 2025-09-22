@@ -114,7 +114,7 @@ author:
 footer:
   links:
     - label: "Scholar"
-      icon: "fa-brands fa-google"
+      icon: "fa-brands fa-google-scholar"
       url: "https://scholar.google.com/citations?user=3Y4O9c4AAAAJ&hl=en"
     - label: "GitHub"
       icon: "fa-brands fa-github"
