@@ -20,7 +20,7 @@ title                    : "James S. Santangelo, PhD"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "James S. Santangelo, PhD"
-description              : "Postdoctoral Fellow"
+description              : "Assistant Professor"
 url                      : https://james-s-santangelo.github.io
 # baseurl                  : /landing
 repository               : James-S-Santangelo/James-S-Santangelo.github.io
@@ -95,9 +95,9 @@ analytics:
 author:
   name             : "James S. Santangelo, PhD"
   avatar           : "assets/images/UTM_James_Santangelo_headshot.jpeg"
-  bio              : "Postdoctoral Fellow, Department of Integrative Biology at the University of California Berkeley"
-  location         : "Berkeley, California"
-  email            : james.santangelo@berkeley.edu
+  bio              : "Assistant Professor, Department of Biology at the University of Ottawa"
+  location         : "Ottawa, Canada"
+  email            : jsantang@uottawa.ca
   cv               : /assets/docs/Santangelo_cv.pdf
   links:
     - label: "Scholar"
