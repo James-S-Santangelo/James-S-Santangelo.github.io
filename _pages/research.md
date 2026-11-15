@@ -5,7 +5,6 @@ author_profile: true
 title: "Research"
 classes: wide
 toc: true
-# last_modified_at: September 2023 
 ---
 
 ## Evolution in urban environments

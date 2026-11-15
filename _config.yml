@@ -28,6 +28,7 @@ enable_copy_code_button  : false
 copyright                : "James S. Santangelo" # footer copyright name, defaults to site.title
 copyright_url            : # defaults to site.url
 timezone                 : "America/Toronto"
+date_format              : "%B %Y" # e.g. "November 2026" — used for the "Updated:" line on pages
 
 comments:
   provider               : false
@@ -99,7 +100,6 @@ exclude:
   - .sass-cache
   - Gemfile
   - Gemfile.lock
-  - LICENSE
   - README.md
   - node_modules
   - tmp
@@ -140,6 +140,10 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-last-modified-at # sets page.last_modified_at from git history (see _plugins/)
+
+last-modified-at:
+  date-format: "%B %Y" # only used by the {% last_modified_at %} tag; pages use date_format above
 
 # Archives (Liquid-based; no archive pages exist yet)
 category_archive:

@@ -18,4 +18,5 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-sitemap"
   gem "jekyll-feed"
+  gem "jekyll-last-modified-at" # "Updated:" dates from git history
 end

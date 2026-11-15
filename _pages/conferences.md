@@ -5,7 +5,10 @@ author_profile: true
 title: "Conference presentations"
 classes: wide
 toc: true
-# last_modified_at: September 2023
+# "Updated:" date also reflects edits to the data files this page is built from
+last_modified_at_sources:
+  - _data/invited.yaml
+  - _data/contributed.yaml
 ---
 
 ## Invited talks

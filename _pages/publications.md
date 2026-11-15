@@ -5,7 +5,11 @@ author_profile: true
 title: "Publications"
 classes: wide
 toc: true
-# last_modified_at: April 2023 
+# "Updated:" date also reflects edits to the data files this page is built from
+last_modified_at_sources:
+  - _data/journal-articles.yaml
+  - _data/book-chapters.yaml
+  - _data/educational-resources.yaml
 
 gallery:
   - url: https://www.dropbox.com/scl/fi/jhoatblsbr16r6eh34u4t/Santangelo-et-al.-2022-Global-urban-environmental-change-drives-adaptation-in-white-clover.pdf?rlkey=gb6dgskpvc1sueoc3wmf50qtg&dl=0
