@@ -1,18 +1,12 @@
-# Welcome to Jekyll!
+# Site configuration — Minimal Mistakes 4.28.x on Jekyll 4.4, built by GitHub Actions
+# (.github/workflows/pages.yml). This file is NOT reloaded by `jekyll serve`;
+# restart the server after editing it.
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# Theme docs: https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 
 # Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+theme                    : "minimal-mistakes-jekyll" # version pinned in Gemfile / Gemfile.lock
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
 
 # Site Settings
 locale                   : "en-US"
@@ -21,143 +15,97 @@ title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "James S. Santangelo, PhD"
 description              : "Assistant Professor"
-url                      : https://james-s-santangelo.github.io
-# baseurl                  : /landing
-repository               : James-S-Santangelo/James-S-Santangelo.github.io
+url                      : "https://james-s-santangelo.github.io"
+baseurl                  : # leave blank for a user/org site
+repository               : "James-S-Santangelo/James-S-Santangelo.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "James S. Santangelo, PhD" # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+masthead_title           : "James S. Santangelo, PhD" # overrides the website title displayed in the masthead
+breadcrumbs              : false
 words_per_minute         : 200
+enable_copy_code_button  : false
+copyright                : "James S. Santangelo" # footer copyright name, defaults to site.title
+copyright_url            : # defaults to site.url
+timezone                 : "America/Toronto"
+
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
-  staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
-reCaptcha:
-  siteKey                :
-  secret                 :
+  provider               : false
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
-algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  hide                   : true # no posts yet; set to false (and add posts) to expose /feed.xml
+search                   : false
+
 # SEO Related
-google_site_verification : mD2iEV_2oE05RuRCnYelTq7w25S4B_DDz7ajGM0StNo
+google_site_verification : "mD2iEV_2oE05RuRCnYelTq7w25S4B_DDz7ajGM0StNo"
 bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
 
 # Social Sharing
-twitter:
-  username               : 
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
 og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   :
+  links:
+    - "https://scholar.google.com/citations?user=3Y4O9c4AAAAJ"
+    - "https://github.com/James-S-Santangelo"
+    - "https://orcid.org/0000-0002-5921-2548"
 
-# Analytics
+# Analytics — removed. The old Universal Analytics property (UA-163993944-1)
+# stopped collecting data on 2023-07-01. Supported providers if needed later:
+# "google-gtag" (GA4 "G-" ID), "swetrix", "custom".
 analytics:
-  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : UA-163993944-1
-    anonymize_ip         : false # true, false (default)
+  provider               : false
 
-
-# Site Author
+# Site Author (sidebar profile)
 author:
   name             : "James S. Santangelo, PhD"
-  avatar           : "assets/images/UTM_James_Santangelo_headshot.jpeg"
+  avatar           : "/assets/images/UTM_James_Santangelo_headshot.jpeg"
   bio              : "Assistant Professor, Department of Biology at the University of Ottawa"
   location         : "Ottawa, Canada"
-  email            : jsantang@uottawa.ca
-  cv               : /assets/docs/Santangelo_cv.pdf
+  email            : "jsantang@uottawa.ca"
   links:
-    - label: "Scholar"
-      icon: "fa-brands fa-google-scholar"
+    - label: "Google Scholar"
+      icon: "fa-brands fa-fw fa-google-scholar"
       url: "https://scholar.google.com/citations?user=3Y4O9c4AAAAJ&hl=en"
     - label: "GitHub"
-      icon: "fa-brands fa-github"
+      icon: "fa-brands fa-fw fa-github"
       url: "https://github.com/James-S-Santangelo"
     - label: "ORCID"
-      icon: "fa-brands fa-orcid"
+      icon: "fa-brands fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-5921-2548"
+    - label: "CV (PDF)"
+      icon: "fa-solid fa-fw fa-file-pdf"
+      url: "/assets/docs/Santangelo_cv.pdf"
 
 # Site Footer
 footer:
   links:
-    - label: "Scholar"
-      icon: "fa-brands fa-google-scholar"
+    - label: "Google Scholar"
+      icon: "fa-brands fa-fw fa-google-scholar"
       url: "https://scholar.google.com/citations?user=3Y4O9c4AAAAJ&hl=en"
     - label: "GitHub"
-      icon: "fa-brands fa-github"
+      icon: "fa-brands fa-fw fa-github"
       url: "https://github.com/James-S-Santangelo"
-
+  since: "2020" # renders "© 2020 - <current year>"
 
 # Reading Files
 include:
-  - .htaccess
   - _pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
-  - .asset-cache
   - .bundle
-  - .jekyll-assets-cache
+  - .jekyll-cache
   - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
   - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
+  - Gemfile.lock
   - LICENSE
-  - log
+  - README.md
   - node_modules
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
-  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -165,7 +113,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -176,75 +123,36 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
 
-
-# Sass/SCSS
+# Sass/SCSS (Dart Sass via jekyll-sass-converter 3.x)
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  style: compressed
+  quiet_deps: true # silence deprecation noise from the theme's own partials
+  silence_deprecations: ["import", "global-builtin"]
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
-# Plugins (previously gems:)
+# Plugins (all are runtime dependencies of the theme gem)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-include-cache
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jekyll-include-cache
 
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path>/my-awesome-category/index.html ~> path: /
+# Archives (Liquid-based; no archive pages exist yet)
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
 
 # HTML Compression
-# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
-
 
 # Defaults
 defaults:
@@ -256,6 +164,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: false
       share: true
       related: true

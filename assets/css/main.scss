@@ -1,8 +1,95 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+search: false
 ---
 
 @charset "utf-8";
 
+// Theme (Minimal Mistakes, pulled in as a gem — see Gemfile)
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* ==========================================================================
+   Site overrides
+   These replace the edits previously made directly inside the vendored
+   _sass/minimal-mistakes/ partials (theme 4.19.1). Keeping them here means
+   theme upgrades no longer overwrite or conflict with them.
+   ========================================================================== */
+
+/* Rounded corners on all images (was in _reset.scss) */
+img {
+  border-radius: 10px;
+}
+
+/* Sidebar avatar: drop the 110px cap so the headshot fills the column
+   (was in _sidebar.scss) */
+.author__avatar img {
+  max-width: none;
+}
+
+/* Darker hover state on buttons: 50% black mix instead of the theme's 20%
+   (was in _buttons.scss). Re-runs the theme's own colour loop. */
+.btn {
+  $site-buttoncolors:
+    (primary, $primary-color),
+    (inverse, #fff),
+    (light-outline, transparent),
+    (success, $success-color),
+    (warning, $warning-color),
+    (danger, $danger-color),
+    (info, $info-color);
+
+  @each $buttoncolor, $color in $site-buttoncolors {
+    &--#{$buttoncolor}:hover {
+      @include yiq-contrasted(mix(#000, $color, 50%));
+    }
+  }
+}
+
+/* Page content (was in _page.scss) */
+.page__content {
+  /* An *italic line* directly under an image renders as a centred caption */
+  img + em {
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-size: smaller;
+  }
+}
+
+/* Tighter landing-page hero */
+.page__hero--overlay {
+  margin-bottom: 1em;
+  padding: 2em 0;
+}
+
+/* Feature rows / archive teasers (was in _archive.scss) */
+.page__content .archive__item-title {
+  margin-top: 0;
+}
+
+.archive__item-teaser {
+  padding: 0;
+  opacity: 1;
+
+  img {
+    border-radius: 10%;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.feature__item .archive__item-body {
+  text-align: center;
+}
+
+/* Wider body text in centred feature rows (intro blurb on the landing page) */
+.feature__item--center {
+  @include breakpoint($small) {
+    .archive__item-body {
+      width: span(9 of 12);
+    }
+  }
+}

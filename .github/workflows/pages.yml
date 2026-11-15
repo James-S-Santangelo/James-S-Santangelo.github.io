@@ -1,0 +1,74 @@
+# Build the Jekyll site on every push / PR; deploy to GitHub Pages only from master.
+# Repo setting required once: Settings > Pages > Build and deployment > Source = "GitHub Actions".
+name: Build and deploy site
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  workflow_dispatch:
+
+# Least privilege by default; the deploy job elevates its own permissions.
+permissions:
+  contents: read
+
+# One deployment at a time; never cancel an in-progress production deploy.
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/master' }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read # configure-pages reads the Pages site config
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@b3aaceaef7e0ee231b499e7b5f49c03fc1d32199 # v1.338.0
+        with:
+          ruby-version: "3.4"
+          bundler-cache: true # bundle install + cache; uses Gemfile.lock if committed
+          cache-version: 0    # bump to force a clean gem cache
+
+      - name: Show resolved gem versions
+        run: |
+          echo "::group::Gemfile.lock"
+          cat Gemfile.lock
+          echo "::endgroup::"
+          bundle exec jekyll --version
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+        # configure-pages fails until the Pages source is set to "GitHub Actions";
+        # don't let that block test builds on feature branches.
+        continue-on-error: ${{ github.ref != 'refs/heads/master' }}
+
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --trace --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

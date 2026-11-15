@@ -9,7 +9,9 @@ header:
   overlay_image: /assets/images/Infl_fruit_wide.jpg
   actions:
     - label: "Download CV"
+      url: "/assets/docs/Santangelo_cv.pdf"
     - label: "Email"
+      url: "mailto:jsantang@uottawa.ca"
   # caption: "Photo credit: James Santangelo"
 excerpt: Department of Biology<br>University of Ottawa
 
