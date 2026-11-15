@@ -6,6 +6,7 @@
 
 # Theme Settings
 theme                    : "minimal-mistakes-jekyll" # version pinned in Gemfile / Gemfile.lock
+ignore_theme_config      : true # don't merge the theme repo's demo _config.yml (sample links, paginate, etc.)
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
 
 # Site Settings
