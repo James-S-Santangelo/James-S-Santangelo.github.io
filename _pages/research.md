@@ -1,7 +1,6 @@
 ---
 layout: single
 permalink: /research/
-author_profile: true
 title: "Research"
 classes: wide
 toc: true

@@ -1,0 +1,88 @@
+# People page data (rendered by _includes/people.html on /people/).
+#
+# Each member:
+#   name:     Full name (required)
+#   group:    One of the `key`s under `groups` below (required); decides the section
+#   stage:    Career stage / position shown under the name, e.g. "PhD student (2026–)"
+#   photo:    Path to a photo; square-ish, ~800 px, < 200 KB is plenty.
+#             Put photos in /assets/images/people/. Leave blank for a placeholder icon.
+#   project:  1–3 sentences on their project. Markdown allowed (links, *italics*).
+#   email:    Shown as an envelope icon (mailto link)
+#   cv:       Link to a CV: a PDF in /assets/docs/people/ or an external URL
+#   links:    Optional extra icon links, e.g. a personal website or ORCID:
+#               - label: "ORCID"
+#                 icon: "fa-brands fa-orcid"
+#                 url: "https://orcid.org/0000-0000-0000-0000"
+#
+# Blank or missing fields are simply not shown. Order in this file = order on the page.
+
+# Sections, in display order. Empty sections are hidden automatically.
+groups:
+  - key: pi
+    title: Principal Investigator
+  - key: postdoc
+    title: Postdoctoral Fellows
+  - key: grad
+    title: Graduate Students
+  - key: staff
+    title: Research Staff
+  - key: undergrad
+    title: Undergraduate Students
+
+members:
+  - name: James S. Santangelo
+    group: pi
+    stage: Assistant Professor
+    photo: /assets/images/people/james-santangelo.jpg
+    project: # TODO: one or two sentences on your research program
+    email: jsantang@uottawa.ca
+    cv: /assets/docs/Santangelo_cv.pdf
+    links:
+      - label: "Google Scholar"
+        icon: "fa-brands fa-google-scholar"
+        url: "https://scholar.google.com/citations?user=3Y4O9c4AAAAJ&hl=en"
+      - label: "GitHub"
+        icon: "fa-brands fa-github"
+        url: "https://github.com/James-S-Santangelo"
+      - label: "ORCID"
+        icon: "fa-brands fa-orcid"
+        url: "https://orcid.org/0000-0002-5921-2548"
+
+  # TODO: confirm names, stages, and fill in photo / project / email / cv
+  - name: Rhys Hiar
+    group: grad
+    stage: Graduate Student # e.g. "MSc student (2026–)" or "PhD student"
+    photo:
+    project:
+    email:
+    cv:
+
+  - name: Lydia Wong
+    group: staff
+    stage: Research Technician
+    photo:
+    project:
+    email:
+    cv:
+
+  - name: Maria Geist
+    group: staff
+    stage: Research Assistant
+    photo:
+    project:
+    email:
+    cv:
+
+  - name: Drew Owen
+    group: undergrad
+    stage: Undergraduate Student
+    photo:
+    project:
+    email:
+    cv:
+
+# Former members, newest first. The section is hidden while this list is empty.
+#   - name: Jane Doe
+#     stage: "MSc student (2026–2028)"
+#     now: "PhD student, University of British Columbia"
+alumni: []

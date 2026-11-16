@@ -21,10 +21,14 @@ img {
   border-radius: 10px;
 }
 
-/* Sidebar avatar: drop the 110px cap so the headshot fills the column
-   (was in _sidebar.scss) */
-.author__avatar img {
-  max-width: none;
+/* No left sidebar on a page (the author profile is off site-wide): let the
+   content column use the full width instead of leaving the sidebar gap.
+   Pages that DO have a sidebar (e.g. a `sidebar:` nav) keep the theme layout. */
+#main:not(:has(> .sidebar)) .page {
+  @include breakpoint($large) {
+    float: none;
+    width: 100%;
+  }
 }
 
 /* Darker hover state on buttons: 50% black mix instead of the theme's 20%
@@ -93,4 +97,109 @@ img {
       width: span(9 of 12);
     }
   }
+}
+
+/* ==========================================================================
+   People page (_includes/people.html, data in _data/people.yml)
+   ========================================================================== */
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5em;
+  margin-bottom: 2em;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5em 1em 1em;
+  border-radius: 10px;
+  background: rgba($text-color, 0.05);
+  text-align: center;
+}
+
+.person__photo {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 0.75em;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 25%; // keep faces in frame for portrait shots
+}
+
+.person__photo--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba($text-color, 0.08);
+  color: $muted-text-color;
+  font-size: 4em;
+}
+
+.page__content .person__name {
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.page__content .person__stage {
+  margin: 0.2em 0 0.75em;
+  color: $muted-text-color;
+  font-size: 0.85em;
+}
+
+.page__content .person__project p {
+  margin-bottom: 0.75em;
+  font-size: 0.85em;
+}
+
+.page__content .person__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25em 1em;
+  margin: auto 0 0; // pin links to the bottom of the card
+  padding: 0;
+  list-style: none;
+  font-size: 0.85em;
+
+  li {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .person__link-label {
+    margin-inline-start: 0.25em;
+  }
+}
+
+.people-alumni__now {
+  color: $muted-text-color;
+}
+
+/* ==========================================================================
+   Join page (_includes/positions.html, data in _data/positions.yml)
+   ========================================================================== */
+
+.position {
+  margin-bottom: 1.5em;
+  padding: 1em 1.25em;
+  border-radius: 10px;
+  background: rgba($text-color, 0.05);
+}
+
+.page__content .position__title {
+  margin-top: 0;
+}
+
+.page__content .position__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25em 1.5em;
+  color: $muted-text-color;
+  font-size: 0.85em;
 }

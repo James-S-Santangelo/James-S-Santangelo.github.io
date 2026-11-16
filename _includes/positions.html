@@ -1,0 +1,21 @@
+{% comment %}
+  Renders open positions from _data/positions.yml (only entries with open: true).
+{% endcomment %}
+{% assign open_positions = site.data.positions.positions | where: "open", true %}
+{% if open_positions.size > 0 %}
+  {% for pos in open_positions %}
+<div class="position">
+  <h3 class="position__title">{{ pos.title }}</h3>
+  <p class="position__meta">
+    {% if pos.level %}<span><i class="fa-solid fa-fw fa-user-graduate" aria-hidden="true"></i> {{ pos.level }}</span>{% endif %}
+    {% if pos.start %}<span><i class="fa-solid fa-fw fa-calendar" aria-hidden="true"></i> Start: {{ pos.start }}</span>{% endif %}
+    {% if pos.funding %}<span><i class="fa-solid fa-fw fa-sack-dollar" aria-hidden="true"></i> {{ pos.funding }}</span>{% endif %}
+  </p>
+  {{ pos.description | markdownify }}
+</div>
+  {% endfor %}
+{% else %}
+<p>There are no specific projects advertised right now, but I'm always happy to hear
+from motivated students and postdocs whose interests fit the lab. Get in touch
+using the process below.</p>
+{% endif %}

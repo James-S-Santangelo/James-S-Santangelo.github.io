@@ -56,7 +56,7 @@ social:
 analytics:
   provider               : false
 
-# Site Author (sidebar profile)
+# Site Author (used for SEO metadata; the sidebar profile is turned off in `defaults`)
 author:
   name             : "James S. Santangelo, PhD"
   avatar           : "/assets/images/UTM_James_Santangelo_headshot.jpeg"
@@ -161,13 +161,19 @@ compress_html:
 
 # Defaults
 defaults:
+  # Pages: no author-profile sidebar (contact/CV links live on /people/ and in the footer)
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: false
   # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: false
       share: true
