@@ -1,6 +1,7 @@
 {% comment %}
   Renders lab members from _data/people.yml as a responsive card grid,
   one section per group (empty groups are skipped), then an alumni list.
+  `stage`, `project`, and alumni fields accept Markdown (links, *italics*).
   Styles: "People page" block in assets/css/main.scss.
 {% endcomment %}
 {% assign people = site.data.people %}
@@ -18,7 +19,7 @@
     <div class="person__photo person__photo--placeholder" aria-hidden="true"><i class="fa-solid fa-user"></i></div>
       {% endif %}
     <h3 class="person__name">{{ p.name }}</h3>
-      {% if p.stage %}<p class="person__stage">{{ p.stage }}</p>{% endif %}
+      {% if p.stage %}<p class="person__stage">{{ p.stage | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>{% endif %}
       {% if p.project %}<div class="person__project">{{ p.project | markdownify }}</div>{% endif %}
       {% if p.email or p.cv or p.links %}
     <ul class="person__links">
@@ -37,7 +38,7 @@
 <h2 id="alumni">Alumni</h2>
 <ul class="people-alumni">
   {% for a in people.alumni %}
-  <li><strong>{{ a.name }}</strong>{% if a.stage %}, {{ a.stage }}{% endif %}{% if a.now %} <span class="people-alumni__now">— now {{ a.now }}</span>{% endif %}</li>
+  <li><strong>{{ a.name }}</strong>{% if a.stage %}, {{ a.stage | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% endif %}{% if a.now %} <span class="people-alumni__now">— now {{ a.now | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>{% endif %}</li>
   {% endfor %}
 </ul>
 {% endif %}
