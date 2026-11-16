@@ -1,8 +1,10 @@
 # main links
 main:
+  - title: "People"
+    url: /people/
   - title: "Research"
     url: /research/
   - title: "Publications"
     url: /publications/
-  - title: "Conferences"
-    url: /conferences/
+  - title: "Join the Lab"
+    url: /join/

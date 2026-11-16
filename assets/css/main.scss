@@ -57,10 +57,11 @@ img {
   }
 }
 
-/* Tighter landing-page hero */
-.page__hero--overlay {
-  margin-bottom: 1em;
-  padding: 2em 0;
+/* Landing page: show the hero photo as a cropped banner, not full 3:2 height */
+.layout--splash .page__hero-image {
+  height: clamp(220px, 40vh, 480px); // tweak to taste
+  object-fit: cover;
+  object-position: center;           // e.g. "center 30%" to shift the crop up
 }
 
 /* Feature rows / archive teasers (was in _archive.scss) */

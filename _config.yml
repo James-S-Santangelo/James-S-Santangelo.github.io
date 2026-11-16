@@ -7,21 +7,21 @@
 # Theme Settings
 theme                    : "minimal-mistakes-jekyll" # version pinned in Gemfile / Gemfile.lock
 ignore_theme_config      : true # don't merge the theme repo's demo _config.yml (sample links, paginate, etc.)
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
+minimal_mistakes_skin    : "catppuccin_mocha" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "James S. Santangelo, PhD"
+title                    : "University of Ottawa"
 title_separator          : "|"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "James S. Santangelo, PhD"
-description              : "Assistant Professor"
+subtitle                 : "Department of Biology, University of Ottawa" # site tagline that appears below site title in masthead
+name                     : ""
+description              : "Plant Evolutionary Genetics"
 url                      : "https://james-s-santangelo.github.io"
 baseurl                  : # leave blank for a user/org site
 repository               : "James-S-Santangelo/James-S-Santangelo.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "James S. Santangelo, PhD" # overrides the website title displayed in the masthead
+masthead_title           : "Santangelo Lab" # overrides the website title displayed in the masthead
 breadcrumbs              : false
 words_per_minute         : 200
 enable_copy_code_button  : false
