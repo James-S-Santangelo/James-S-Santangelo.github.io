@@ -51,34 +51,26 @@ members:
   # TODO: confirm names, stages, and fill in photo / project / email / cv
   - name: Rhys Hiar
     group: grad
-    stage: Graduate Student # e.g. "MSc student (2026–)" or "PhD student"
+    stage: MSc. Student, co-advised with [Yaseen Mottiar](https://mottiar.uottawa.ca/)
     photo:
-    project:
-    email:
-    cv:
-
-  - name: Lydia Wong
-    group: staff
-    stage: Research Technician
-    photo:
-    project:
-    email:
+    project: Assembly and annotation of Eastern Leatherwood (_Dirca palustris_) genome.
+    email: rhiar@uottawa.ca
     cv:
 
   - name: Maria Geist
-    group: staff
-    stage: Research Assistant
+    group: undergrad 
+    stage: Honour's Thesis Student 
     photo:
-    project:
-    email:
+    project: Phenotypic clines in non-additive traits with drift and migration.
+    email: mgeis048@uottawa.ca
     cv:
 
-  - name: Drew Owen
+  - name: Victoria Robinson
     group: undergrad
-    stage: Undergraduate Student
+    stage: Honour's Thesis Student
     photo:
-    project:
-    email:
+    project: Mapping the self-incompatibility locus in white clover.
+    email: vrobi082@uottawa.ca
     cv:
 
 # Former members, newest first. The section is hidden while this list is empty.
