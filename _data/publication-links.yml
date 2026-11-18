@@ -1,6 +1,7 @@
 # Extra links shown after each entry on /publications/.
 # Keys are Paperpile citation keys from _data/publications.bib (e.g. Santangelo2025-hy).
-# Any of pdf / data / code may be given; each becomes an icon link. Omit a paper
+# Any of pdf / data / seq / code may be given; each becomes an icon link
+# (seq = sequence reads, e.g. an SRA/ENA BioProject; shown as a DNA icon). Omit a paper
 # entirely if it has no links. Order doesn't matter.
 #
 Santangelo2025-hy:
