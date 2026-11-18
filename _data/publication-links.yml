@@ -5,7 +5,7 @@
 # entirely if it has no links. Order doesn't matter.
 #
 Santangelo2025-hy:
-  pdf: https://...
+  pdf: "https://www.dropbox.com/scl/fi/qrlpgrae3u4kwb8xuy3b9/Santangelo-et-al.-2025-Signatures-of-selective-sweeps-in-urban-and-rural-white-clover-populations.pdf?rlkey=hkkxuf5ha4wuj6yfs8qh8hqhc&dl=0"
   data: "https://zenodo.org/records/15670086"
   seq: "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1179961/"
   code: "https://github.com/James-S-Santangelo/toronto_gwsd"
