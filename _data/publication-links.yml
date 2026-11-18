@@ -3,6 +3,8 @@
 # Any of pdf / data / seq / code may be given; each becomes an icon link
 # (seq = sequence reads, e.g. an SRA/ENA BioProject; shown as a DNA icon). Omit a paper
 # entirely if it has no links. Order doesn't matter.
+# If Paperpile changes a paper's citation key, the build prints a warning naming
+# the orphaned key here; rename it to the new key from publications.bib.
 #
 # Preprints (@unpublished entries) use the same keys and fields
 Nikolaeva2025-np:
@@ -78,7 +80,7 @@ Santangelo2018-iy:
 Santangelo2018-ve:
   pdf: "https://www.dropbox.com/scl/fi/wj10ruytw3r04wzp3drz3/Santangelo-Rivkin-Johnson-2018-The-evolution-of-city-life.pdf?rlkey=w12cdwun4ew60vk5xxenphx2j&dl=0"
 
-Santangelo2018-yb:
+Santangelo2019-fe:
   pdf: "https://www.dropbox.com/scl/fi/x2jvdiqqks5praop3d2zy/Santangelo-Thompson-Johnson-2018-Herbivores-and-plant-defenses-affect-selection-on-plant-reproductive-traits-more-strongly-than-po.pdf?rlkey=t80wx6mmjk94kpgl92hd0q08t&dl=0"
   data: "https://zenodo.org/badge/latestdoi/130268377"
   code: "https://github.com/James-S-Santangelo/HPS_Herbivore-Pollinator-Selection"
