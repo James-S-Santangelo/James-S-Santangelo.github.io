@@ -20,6 +20,10 @@ gallery:
 
 {% include gallery layout="third" class="pub-covers" %}
 
+## Preprints
+
+{% bibliography --query @unpublished %}
+
 ## Journal articles
 
 {% bibliography --query @article %}
@@ -27,7 +31,3 @@ gallery:
 ## Book chapters
 
 {% bibliography --query @incollection %}
-
-## Preprints
-
-{% bibliography --query @unpublished %}
