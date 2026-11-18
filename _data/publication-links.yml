@@ -1,0 +1,86 @@
+# Extra links shown after each entry on /publications/.
+# Keys are Paperpile citation keys from _data/publications.bib (e.g. Santangelo2025-hy).
+# Any of pdf / data / code may be given; each becomes an icon link. Omit a paper
+# entirely if it has no links. Order doesn't matter.
+#
+#   Santangelo2025-hy:
+#     pdf: https://...
+#     data: https://datadryad.org/...
+#     code: https://github.com/...
+
+Murray-Stoker2025-rs:
+  pdf: "https://www.dropbox.com/scl/fi/wwgipjsmrplcr0doqmyv6/Murray-Stoker-et-al.-2025-Comparing-approaches-to-quantify-urbanization-on-a-multicontinental-scale.pdf?rlkey=5617c619j84k5r9v0ojpcvo4a&e=1&dl=0"
+
+# TODO: the old site linked this paper to the Murray-Stoker et al. PDF by mistake; add the correct PDF
+# Nikolaeva2025-xi:
+#   pdf: ""
+
+Bhachu2024-dw:
+  pdf: "https://www.dropbox.com/scl/fi/7n82oy20zafr3m4t7iqek/Bhachu-et-al.-2024-Tissue-specific-expression-of-HCN-and-its-metabolic-precursors-in-Trifolium-repens.pdf?rlkey=2ii04ksu9tcww8ldrgvmkllea&e=1&dl=0"
+
+Caizergues2024-ir:
+  pdf: "https://www.dropbox.com/scl/fi/mh3mmhkcd1nnqm8htjukp/Caizergues-et-al.-2024-Does-urbanisation-lead-to-parallel-demographic-shifts-across-the-world-in-a-cosmopolitan-plant.pdf?rlkey=lpnwmql2i4s20g9qkr24mar0o&dl=0"
+
+Santangelo2023-ak:
+  pdf: "https://www.dropbox.com/scl/fi/1poqinaevfnrhe74zhwpx/Santangelo-et-al.-2023-Haplotype-Resolved-Chromosome-Level-Assembly-of-White-Clover-Trifolium-repens-L.-Fabaceae.pdf?rlkey=ejl8k79e31pal06lmidb4qykm&dl=0"
+  data: "https://doi.org/10.5281/zenodo.8180534"
+  code: "https://github.com/James-S-Santangelo/dcg"
+
+Innes2022-eg:
+  pdf: "https://www.dropbox.com/scl/fi/3sr7pfijmxj1dsarzx0ri/Innes-et-al.-2022-Evolution-in-response-to-climate-in-the-native-and-introduced-ranges-of-a-globally-distributed-plant.pdf?rlkey=i1k4sqlpjukjfqinw4fc5ja2z&dl=0"
+
+Santangelo2022-hk:
+  pdf: "https://www.dropbox.com/scl/fi/xgsv1v04ml8ub4vxlu9tv/Journal-of-Ecology-2022-Santangelo-The-effects-of-environmental-heterogeneity-within-a-city-on-the-evolution-of.pdf?rlkey=gdid5e3edi00oyomw5c9tlk3q&dl=0"
+  data: "https://zenodo.org/record/7093196"
+  code: "https://github.com/James-S-Santangelo/umc"
+
+Santangelo2022-xb:
+  pdf: "https://www.dropbox.com/scl/fi/jhoatblsbr16r6eh34u4t/Santangelo-et-al.-2022-Global-urban-environmental-change-drives-adaptation-in-white-clover.pdf?rlkey=gb6dgskpvc1sueoc3wmf50qtg&dl=0"
+  data: "https://zenodo.org/record/5780438"
+  code: "https://github.com/James-S-Santangelo/glue_pc"
+
+Verrelli2022-hi:
+  pdf: "https://www.dropbox.com/scl/fi/e0fbpk6dx43bnfgfj07u2/Verrelli-et-al.-2022-A-global-horizon-scan-for-urban-evolutionary-ecology.pdf?rlkey=n5sh4m9e3vpcf2ie46mpz8q4h&dl=0"
+
+Santangelo2020-if:
+  pdf: "https://www.dropbox.com/scl/fi/h63l5tsb2ca5rho8q4eni/Santangelo-et-al.-2020-Multivariate-phenotypic-divergence-along-an-urbanization-gradient.pdf?rlkey=kgb2ov6v6ohff3wgc4rdj9vfu&dl=0"
+  data: "https://zenodo.org/badge/latestdoi/158302079"
+  code: "https://github.com/James-S-Santangelo/sic"
+
+Santangelo2020-sg:
+  pdf: "https://www.dropbox.com/scl/fi/jixm0yrdlf57rkaosme6k/Santangelo-et-al.-2020-Urban-environments-as-a-framework-to-study-parallel-evolution.pdf?rlkey=0bwo5erp9bu1mjm5yd3f60nll&dl=0"
+
+Santangelo2020-zn:
+  pdf: "https://www.dropbox.com/scl/fi/v80cefwfhlc9ibv5e9xmh/Santangelo-et-al.-2020-Predicting-the-strength-of-urban-rural-clines-in-a-Mendelian-polymorphism-along-a-latitudinal-gradient.pdf?rlkey=6suh8rtbcm3f47c9d0e0398kx&dl=0"
+  data: "https://zenodo.org/badge/latestdoi/185809598"
+  code: "https://github.com/James-S-Santangelo/uac"
+
+Johnston2019-rk:
+  pdf: "https://www.dropbox.com/scl/fi/jxv650xmbhb7algtiaog2/Johnston-et-al.-2019-A-graduate-student-led-participatory-live-coding-quantitative-methods-course-in-R-Experiences-on-initiating-de.pdf?rlkey=ghbde2z3yvnmznkclw7wv8ref&dl=0"
+  code: "https://github.com/James-S-Santangelo/paper-rcourse"
+
+Rivkin2019-tx:
+  pdf: "https://www.dropbox.com/scl/fi/3096x6d37gx4hoj062d7i/Rivkin-et-al.-2019-A-roadmap-for-urban-evolutionary-ecology.pdf?rlkey=h7hty4kp0ebtnkomec2h2i4md&dl=0"
+
+Santangelo2018-iy:
+  pdf: "https://www.dropbox.com/scl/fi/e43ppzkpwp043fl5r9h9s/Santangelo-Johnson-Ness-2018-Modern-spandrels-the-roles-of-genetic-drift-gene-flow-and-natural-selection-in-the-evolution-of-para.pdf?rlkey=897yvckmsumwpbt0ncloj0nvz&dl=0"
+  data: "https://zenodo.org/badge/latestdoi/89018655"
+  code: "https://github.com/James-S-Santangelo/Simulating-Evolutionary-Clines-SEC-"
+
+Santangelo2018-ve:
+  pdf: "https://www.dropbox.com/scl/fi/wj10ruytw3r04wzp3drz3/Santangelo-Rivkin-Johnson-2018-The-evolution-of-city-life.pdf?rlkey=w12cdwun4ew60vk5xxenphx2j&dl=0"
+
+Santangelo2018-yb:
+  pdf: "https://www.dropbox.com/scl/fi/x2jvdiqqks5praop3d2zy/Santangelo-Thompson-Johnson-2018-Herbivores-and-plant-defenses-affect-selection-on-plant-reproductive-traits-more-strongly-than-po.pdf?rlkey=t80wx6mmjk94kpgl92hd0q08t&dl=0"
+  data: "https://zenodo.org/badge/latestdoi/130268377"
+  code: "https://github.com/James-S-Santangelo/HPS_Herbivore-Pollinator-Selection"
+
+Cadotte2017-dv:
+  pdf: "https://www.dropbox.com/scl/fi/acjo9f4yu27578cqgvpq0/Cadotte-et-al.-2017-Explaining-ecosystem-multifunction-with-evolutionary-models.pdf?rlkey=2y1bzqmylolj8zs1vcp376v87&dl=0"
+
+Santangelo2016-ba:
+  pdf: "https://www.dropbox.com/scl/fi/jo23h0fj3dtosy4cst27f/Santangelo-Kotanen-2016-Nonsystemic-fungal-endophytes-increase-survival-but-reduce-tolerance-to-simulated-herbivory-in-subarctic-iF.pdf?rlkey=tcdpryicqy6fy68zgjng3vugx&dl=0"
+
+Santangelo2015-jo:
+  pdf: "https://www.dropbox.com/scl/fi/e8fxumrgl54z8p58hid63/Santangelo-Turley-Johnson-2015-Fungal-endophytes-of-iFestuca-rubrai-increase-in-frequency-following-long-term-exclusion-of-rabbits.pdf?rlkey=6b60ahicxxelr2x8pnlr1mzqo&dl=0"
+  data: "https://datadryad.org/stash/dataset/doi:10.5061/dryad.24d1b"

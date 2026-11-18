@@ -141,9 +141,26 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-last-modified-at # sets page.last_modified_at from git history (see _plugins/)
+  - jekyll-scholar # renders _data/publications.bib on /publications/
 
 last-modified-at:
   date-format: "%B %Y" # only used by the {% last_modified_at %} tag; pages use date_format above
+
+# Publications (jekyll-scholar). The .bib is kept in sync by Paperpile's
+# BibTeX Export workflow, which commits to master; per-paper PDF/data/code
+# links live in _data/publication-links.yml.
+scholar:
+  source: ./_data
+  bibliography: publications.bib
+  style: _bibliography/evolution.csl # copy of the official CSL style, pinned in-repo
+  locale: en
+  bibliography_template: bib       # _layouts/bib.html
+  bibliography_list_tag: ul
+  bibliography_group_tag: h3       # year sub-headings under the page's h2 sections
+  group_by: year
+  group_order: descending
+  sort_by: year,author             # newest year first, then alphabetical by first author
+  order: descending,ascending
 
 # Archives (Liquid-based; no archive pages exist yet)
 category_archive:

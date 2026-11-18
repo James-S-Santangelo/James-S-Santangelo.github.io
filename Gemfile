@@ -19,4 +19,5 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-feed"
   gem "jekyll-last-modified-at" # "Updated:" dates from git history
+  gem "jekyll-scholar"           # BibTeX -> Publications page
 end

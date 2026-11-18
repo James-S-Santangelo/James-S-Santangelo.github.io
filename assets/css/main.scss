@@ -203,3 +203,34 @@ img {
   color: $muted-text-color;
   font-size: 0.85em;
 }
+
+/* ==========================================================================
+   Publications page (jekyll-scholar; template _layouts/bib.html)
+   ========================================================================== */
+
+/* Smaller journal covers at the top of the page */
+.pub-covers img {
+  max-width: 220px;
+}
+
+/* Hanging-indent reference list, no bullets */
+.page__content ul.bibliography {
+  margin-inline-start: 0;
+  padding-inline-start: 1.5em;
+  list-style: none;
+
+  li {
+    margin-bottom: 0.75em;
+    text-indent: -1.5em;
+  }
+}
+
+.pub-links {
+  margin-inline-start: 0.25em;
+  white-space: nowrap;
+
+  a {
+    margin-inline-end: 0.15em;
+    text-decoration: none;
+  }
+}
