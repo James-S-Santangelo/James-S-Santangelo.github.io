@@ -4,6 +4,10 @@
 # (seq = sequence reads, e.g. an SRA/ENA BioProject; shown as a DNA icon). Omit a paper
 # entirely if it has no links. Order doesn't matter.
 #
+# Preprints (@unpublished entries) use the same keys and fields
+Nikolaeva2025-np:
+  pdf: "https://www.biorxiv.org/content/10.1101/2025.11.20.689601v2.full.pdf"
+
 Santangelo2025-hy:
   pdf: "https://www.dropbox.com/scl/fi/qrlpgrae3u4kwb8xuy3b9/Santangelo-et-al.-2025-Signatures-of-selective-sweeps-in-urban-and-rural-white-clover-populations.pdf?rlkey=hkkxuf5ha4wuj6yfs8qh8hqhc&dl=0"
   data: "https://zenodo.org/records/15670086"
