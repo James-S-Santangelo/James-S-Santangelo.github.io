@@ -243,4 +243,11 @@ img {
     margin-inline-end: 0.15em;
     text-decoration: none;
   }
+
+  /* Icons are inline-block, so they inherit the list item's negative
+     text-indent (hanging indent) and get pulled back over the text. */
+  a,
+  i {
+    text-indent: 0;
+  }
 }
