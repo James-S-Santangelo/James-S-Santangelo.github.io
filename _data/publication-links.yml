@@ -3,17 +3,18 @@
 # Any of pdf / data / code may be given; each becomes an icon link. Omit a paper
 # entirely if it has no links. Order doesn't matter.
 #
-#   Santangelo2025-hy:
-#     pdf: https://...
-#     data: https://datadryad.org/...
-#     code: https://github.com/...
+Santangelo2025-hy:
+  pdf: https://...
+  data: "https://zenodo.org/records/15670086"
+  seq: "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1179961/"
+  code: "https://github.com/James-S-Santangelo/toronto_gwsd"
 
 Murray-Stoker2025-rs:
   pdf: "https://www.dropbox.com/scl/fi/wwgipjsmrplcr0doqmyv6/Murray-Stoker-et-al.-2025-Comparing-approaches-to-quantify-urbanization-on-a-multicontinental-scale.pdf?rlkey=5617c619j84k5r9v0ojpcvo4a&e=1&dl=0"
 
 # TODO: the old site linked this paper to the Murray-Stoker et al. PDF by mistake; add the correct PDF
-# Nikolaeva2025-xi:
-#   pdf: ""
+Nikolaeva2025-xi:
+  pdf: "https://www.biorxiv.org/content/10.1101/2025.11.20.689601v2.full.pdf"
 
 Bhachu2024-dw:
   pdf: "https://www.dropbox.com/scl/fi/7n82oy20zafr3m4t7iqek/Bhachu-et-al.-2024-Tissue-specific-expression-of-HCN-and-its-metabolic-precursors-in-Trifolium-repens.pdf?rlkey=2ii04ksu9tcww8ldrgvmkllea&e=1&dl=0"
@@ -24,6 +25,7 @@ Caizergues2024-ir:
 Santangelo2023-ak:
   pdf: "https://www.dropbox.com/scl/fi/1poqinaevfnrhe74zhwpx/Santangelo-et-al.-2023-Haplotype-Resolved-Chromosome-Level-Assembly-of-White-Clover-Trifolium-repens-L.-Fabaceae.pdf?rlkey=ejl8k79e31pal06lmidb4qykm&dl=0"
   data: "https://doi.org/10.5281/zenodo.8180534"
+  seq: "https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA951196"
   code: "https://github.com/James-S-Santangelo/dcg"
 
 Innes2022-eg:
@@ -37,6 +39,7 @@ Santangelo2022-hk:
 Santangelo2022-xb:
   pdf: "https://www.dropbox.com/scl/fi/jhoatblsbr16r6eh34u4t/Santangelo-et-al.-2022-Global-urban-environmental-change-drives-adaptation-in-white-clover.pdf?rlkey=gb6dgskpvc1sueoc3wmf50qtg&dl=0"
   data: "https://zenodo.org/record/5780438"
+  seq: "https://www.ncbi.nlm.nih.gov/bioproject/1081485"
   code: "https://github.com/James-S-Santangelo/glue_pc"
 
 Verrelli2022-hi:
