@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copy of the "Evolution" style from https://github.com/citation-style-language/styles
-     (CC BY-SA 3.0), with one change marked "Site modification" below. -->
+     (CC BY-SA 3.0), with changes marked "Site modification" below. -->
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="en-US">
   <info>
     <title>Evolution</title>
@@ -149,6 +149,19 @@
         <text macro="title"/>
         <text macro="journal-location"/>
         <text macro="chapter-info"/>
+        <!-- Site modification: preprints (BibTeX @unpublished = CSL manuscript) show the
+             server (Paperpile exports it as `institution`), the preprint ID (`pages`), and `note` -->
+        <choose>
+          <if type="manuscript">
+            <group delimiter=". ">
+              <group delimiter=" ">
+                <text variable="publisher"/>
+                <text variable="page"/>
+              </group>
+              <text variable="note"/>
+            </group>
+          </if>
+        </choose>
         <!-- Site modification: only books/chapters/reports/theses show the publisher
              (the upstream style printed it for journal articles too) -->
         <choose>

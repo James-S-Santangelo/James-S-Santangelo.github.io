@@ -27,3 +27,7 @@ gallery:
 ## Book chapters
 
 {% bibliography --query @incollection %}
+
+## Preprints
+
+{% bibliography --query @unpublished %}

@@ -208,9 +208,20 @@ img {
    Publications page (jekyll-scholar; template _layouts/bib.html)
    ========================================================================== */
 
-/* Smaller journal covers at the top of the page */
-.pub-covers img {
-  max-width: 220px;
+/* Journal covers: small, side by side, left-aligned. The theme's gallery
+   spreads items across the full row (justify-content: space-between). */
+.page__content figure.pub-covers {
+  justify-content: flex-start;
+  gap: 1em;
+
+  > a,
+  > img {
+    width: 160px;
+  }
+
+  img {
+    width: 100%;
+  }
 }
 
 /* Hanging-indent reference list, no bullets */
@@ -226,7 +237,6 @@ img {
 }
 
 .pub-links {
-  margin-inline-start: 0.25em;
   white-space: nowrap;
 
   a {
