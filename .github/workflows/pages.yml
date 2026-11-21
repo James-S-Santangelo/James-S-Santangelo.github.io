@@ -56,6 +56,21 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Screenshots (temporary)
+        shell: bash
+        run: |
+          set +e
+          (cd _site && python3 -m http.server 8765 >/dev/null 2>&1 &)
+          sleep 2
+          shot() {
+            google-chrome --headless=new --no-sandbox --disable-gpu --hide-scrollbars \
+              --force-device-scale-factor=1 --window-size=$3,$4 --virtual-time-budget=8000 \
+              --screenshot=/tmp/$1.png "http://127.0.0.1:8765$2" >/dev/null 2>&1
+            echo "=====BEGIN $1====="; base64 -w 0 /tmp/$1.png; echo; echo "=====END $1====="
+          }
+          shot join_desktop /join/ 1280 1100
+          shot join_mobile /join/ 390 1300
+          shot landing_desktop / 1280 900
       - name: Upload artifact
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
 
