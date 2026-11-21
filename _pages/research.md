@@ -102,7 +102,7 @@ broader suite of traits. Here are some sample questions we're interested in tack
 Access to high quality molecular and genomic resources is essential to help drive investigations into the genetic
 basis of adaptation, particularly in non-model system where such resources have been historically lacking.
 
-<div class="media-text" markdown="1">
+<div class="media-text" style="--media-width: 32%" markdown="1">
 ![Circos plot of the haplotype-resolved white clover genome assembly](../assets/images/circos.png)
 
 <div class="media-text__body" markdown="1">
