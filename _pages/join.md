@@ -3,7 +3,9 @@ layout: single
 permalink: /join/
 title: "Join the Lab"
 classes: wide
-toc: true
+header:
+  image: /assets/images/join-header.jpg # placeholder: replace this file (or point to another image)
+  image_description: "White clover flowering in a field experiment"
 # Open positions come from _data/positions.yml; count its edits toward the "Updated:" date
 last_modified_at_sources:
   - _data/positions.yml

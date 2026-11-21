@@ -66,8 +66,9 @@ img {
   }
 }
 
-/* Landing page: show the hero photo as a cropped banner, not full 3:2 height */
-.layout--splash .page__hero-image {
+/* Header images (header.image in front matter, e.g. landing and Join pages):
+   show as a cropped banner rather than at the photo's full height */
+.page__hero-image {
   height: clamp(220px, 40vh, 480px); // tweak to taste
   object-fit: cover;
   object-position: center;           // e.g. "center 30%" to shift the crop up
