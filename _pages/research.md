@@ -10,7 +10,7 @@ toc: true
 
 ## Urban-rural cyanogenesis (HCN) clines
 
-![](../assets/images/glue_map.png)
+![World map of cities sampled by the Global Urban Evolution Project, coloured by urban-rural HCN cline](../assets/images/glue_map.png)
 *Figure 1: Map of cities samples as part of the Global Urban Evolution Project. Cities with positive clines (HCN<sub>Urban</sub> < HCN<sub>Rural</sub>) are colored blue while cities with negative clines(HCN<sub>Urban</sub> < HCN<sub>Rural</sub>)*
 
 Humans are having a decisive impact on natural environments around the world,
@@ -58,7 +58,7 @@ ranges](https://www.nature.com/articles/s41559-025-02751-2).
 
 ## Quantitative trait evolution and genome-wide selection 
 
-![](../assets/images/multi_cline_xpnsl.png)
+![Toronto sampling transect and common garden, multivariate phenotypic cline, and genome-wide XP-nSL selection scan](../assets/images/multi_cline_xpnsl.png)
 *Figure 2: Top left: Populations sampled and common garden experiment used for detected quantitative trait differentiation of white clover populations across an urban-rural transect in Toronto, Canada. Top right: Multivariate phenotypic cline among Toronto white clover population. Each point represents a plant's multivariate cline score, which combines standardized measurements of 14 phenotypic traits and their genetic correlations. Bottom: Cross-Population Number of Segregating Sites by Length (XP-nSL) scores for urban and rural plants in Toronto. This statistic identifies candidates of positive selection using genome-wide haplotype data.*
 
 Given the multifarious environmental changes associated with the development of
@@ -102,7 +102,11 @@ broader suite of traits. Here are some sample questions we're interested in tack
 Access to high quality molecular and genomic resources is essential to help drive investigations into the genetic
 basis of adaptation, particularly in non-model system where such resources have been historically lacking.
 
-![](../assets/images/circos.png){: .align-left width="35%"} To facilitate many
+<div class="media-text" markdown="1">
+![Circos plot of the haplotype-resolved white clover genome assembly](../assets/images/circos.png)
+
+<div class="media-text__body" markdown="1">
+To facilitate many
 of the ongoing genomic analyses for some of the projects discussed above, it
 was necessary to improve on white clover's genomic resources. In collaboration
 with other labs that use clover as a model system, we developed a
@@ -115,8 +119,9 @@ assembly](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_030408175.1/), the
 [annotation pipeline for which is
 publicly-available](https://github.com/James-S-Santangelo/dcg) and has been
 used on assemblies for other species with some success (though some
-modifications are necessary). 
-<br>
+modifications are necessary).
+</div>
+</div>
 
 ## Ongoing projects and questions
 
@@ -138,8 +143,10 @@ investigations into the structural complexities of plant genomes.
 
 ### Neutral clines in traits with non-additive genetic architectures 
 
-![](../assets/images/sims.png){: .align-left width="50%"}
+<div class="media-text" markdown="1">
+![Simulated HCN clines under varying strengths of drift, selection, and gene flow](../assets/images/sims.png)
 
+<div class="media-text__body" markdown="1">
 HCN exhibits duplicate-recessive epistasis (or complimentary epistasis),
 whereby plants require a functional allele at each of two interacting loci to
 produce HCN. Recessivity at either locus (or both) results in the inability to
@@ -158,5 +165,7 @@ This could explain the frequently observed loss of HCN in urban populations,
 which experience stronger drift in many systems. However, the strength of
 observed phenotypic clines are far stronger than those generated via drift
 alone, and genomic analyses have ruled out drift as a likely explanation
-driving these clines. <br>
+driving these clines.
+</div>
+</div>
 

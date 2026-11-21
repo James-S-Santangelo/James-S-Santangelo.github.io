@@ -7,6 +7,11 @@ search: false
 
 // Theme (Minimal Mistakes, pulled in as a gem — see Gemfile)
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+// The Catppuccin skins set $border-color: transparent, which hides every divider
+// the theme draws (e.g. the line under the landing-page intro, <hr>, table and
+// TOC borders). Derive a subtle border from whichever skin is active instead.
+$border-color: mix($text-color, $background-color, 20%);
+
 @import "minimal-mistakes"; // main partials
 
 /* ==========================================================================
@@ -249,5 +254,72 @@ img {
   a,
   i {
     text-indent: 0;
+  }
+}
+
+/* ==========================================================================
+   Image beside text (research page)
+
+   <div class="media-text" markdown="1">
+   ![alt text](../assets/images/figure.png)
+
+   <div class="media-text__body" markdown="1">
+   Paragraph(s) of text...
+   </div>
+   </div>
+
+   Image on the left, text vertically centred on the right; stacks (image
+   first) on narrow screens. Add class "media-text--right" to put the image
+   on the right. Change the image's share of the width per block with
+   style="--media-width: 50%" on the outer div (default 40%).
+   ========================================================================== */
+
+.media-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 1.5em;
+
+  @include breakpoint($medium) {
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+  }
+
+  > p:first-child {
+    margin: 0;
+
+    @include breakpoint($medium) {
+      flex: 0 0 var(--media-width, 40%);
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &--right {
+    @include breakpoint($medium) {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+.media-text__body {
+  flex: 1 1 0;
+  min-width: 0;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* Section headings never sit beside a floated image */
+.page__content {
+  h1,
+  h2,
+  h3 {
+    clear: both;
   }
 }
