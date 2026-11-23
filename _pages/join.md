@@ -6,9 +6,6 @@ classes: wide
 header:
   image: /assets/images/join-header.jpg # placeholder: replace this file (or point to another image)
   image_description: "White clover flowering in a field experiment"
-# Open positions come from _data/positions.yml; count its edits toward the "Updated:" date
-last_modified_at_sources:
-  - _data/positions.yml
 ---
 
 The Santangelo Lab is recruiting undergraduate and graduate students. We use
@@ -27,17 +24,13 @@ There may also be paid summer or part-time positions (e.g., NSERC USRA,
 work-study). Email me with your CV, an unofficial transcript, and a few sentences
 on what interests you about the lab's research.
 
-## Open positions
-
-{% include positions.html %}
-
 ## Graduate students (MSc and PhD)
 
 I'm always looking for keen and motivated graduate students. If any of the
-[Research themes](/Research/) interest you, please reach out. Applications are
+[Research themes](/research/) interest you, please reach out. Applications are
 welcome anytime, though the program requires that **your supervisor be
 identified at the time you apply** (see [admission program
-requirements](https://www.uottawa.ca/study/graduate-studies/program-specific-requirements). 
+requirements](https://www.uottawa.ca/study/graduate-studies/program-specific-requirements)).
 
 **To get in touch**, email me at
 [jsantang@uottawa.ca](mailto:jsantang@uottawa.ca) with the subject line

@@ -79,6 +79,11 @@ img {
   margin-top: 0;
 }
 
+/* Landing-page tiles: breathing room between the image and its title */
+.feature__item .archive__item-teaser + .archive__item-body .archive__item-title {
+  margin-top: 0.75em;
+}
+
 .archive__item-teaser {
   padding: 0;
   opacity: 1;
@@ -185,29 +190,6 @@ img {
 
 .people-alumni__now {
   color: $muted-text-color;
-}
-
-/* ==========================================================================
-   Join page (_includes/positions.html, data in _data/positions.yml)
-   ========================================================================== */
-
-.position {
-  margin-bottom: 1.5em;
-  padding: 1em 1.25em;
-  border-radius: 10px;
-  background: rgba($text-color, 0.05);
-}
-
-.page__content .position__title {
-  margin-top: 0;
-}
-
-.page__content .position__meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.25em 1.5em;
-  color: $muted-text-color;
-  font-size: 0.85em;
 }
 
 /* ==========================================================================
