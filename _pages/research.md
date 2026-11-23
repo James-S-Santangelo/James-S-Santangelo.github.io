@@ -96,7 +96,9 @@ broader suite of traits. Here are some sample ideas we're thinking about:
 4. Quantifying contemporary agents and targets of selection in multi-year
    common-garden experiments.
 
-## Theme 2: Genome assembly, annotation, and resource development
+## Theme 2: Resource development
+
+### Genome assembly and annotation
 
 Access to high quality molecular and genomic resources is essential to help
 drive investigations into the genetic basis of adaptation, particularly in
@@ -129,8 +131,6 @@ modifications are necessary).
 
 </div>
 
-### Ongoing projects and questions
-
 In collaboration with [Yaseen Mottiar](https://mottiar.uottawa.ca/), we are
 developing and annotating, haplotype-resolved, chromosome-level assembly of
 Eastern Leatherwood (_Dirca palustris_) to drive future investigations into the
@@ -143,15 +143,26 @@ smithsonianus_), which we will leverage to understand how changes in pollution
 levels in Hamilton Harbour—a heavily contaminated industrial waterway in
 southern Ontario—have impacted somatic and germline mutation rates and spectra.
 
+### Ongoing projects and questions
+
 All of the projects described so far have used a single reference genome.
 However, this can introduce biases in analyses, particularly in complex plant
 genomes like white clover that are loaded with repeats and structural
-rearrangements. A focus of the lab going forward will be to add to the growing
-number of chromosome-level assemblies in white clover, which will open the door
-to pangenomic analyses to help reduce reference bias and drive investigations
-into the structural complexities of plant genomes. 
+rearrangements. 
 
-### Neutral clines in traits with non-additive genetic architectures 
+A focus of the lab going forward will be to add to the growing
+number of chromosome-level assemblies in white clover to:
+
+1. Examining the extent to which reference biases have affected prior,
+   single-reference based approaches.
+2. Leverage pangenomic analyses to explore structural rearrangements of the
+   genome (e.g., inversions, large INDELs, translocations).
+3. Explore how transposable elements have proliferated across the white clover
+   genome.
+
+## Theme 3: Misc. research interests in pop gen and plant evolutionary genetics 
+
+### Population genetic simulations
 
 <div class="media-text" markdown="1">
 
@@ -173,13 +184,29 @@ mechanisms interact in the evolution of clines in traits with non-additive
 genetic architectures. We found that [drift on its own is sufficient to drive
 the deterministic loss of HCN in strongly-drifting
 populations](https://www.dropbox.com/scl/fi/e43ppzkpwp043fl5r9h9s/Santangelo-Johnson-Ness-2018-Modern-spandrels-the-roles-of-genetic-drift-gene-flow-and-natural-selection-in-the-evolution-of-para.pdf?rlkey=897yvckmsumwpbt0ncloj0nvz&dl=0).
-This could explain the frequently observed loss of HCN in urban populations,
-which experience stronger drift in many systems. However, the strength of
-observed phenotypic clines are far stronger than those generated via drift
-alone, and genomic analyses have ruled out drift as a likely explanation
-driving these clines.
-
+We are currently extending these simulations to other types of epistasis to see
+how gradients in the strength of genetic drift more generally drive the
+deterministic evolution of clines in two-locus traits with non-additive genetic
+architectures.
 </div>
 
 </div>
+
+Other simulation projects include:
+
+1. Testing the performance of gene-environment association analyses (e.g.,
+   LFMM, BayPass) under varying levels of population structure with and without
+   structure-correction.
+2. Comparing the performance of existing genotype-imputation software in highly
+   diverse, highly recombining non-model species.
+
+### Ongoing projects and questions
+
+We're interested in all things plant evolutionary genetics. Here's a small
+random sample of other projects that are at various stages of development:
+
+1. Mapping the self-incompatibility locus in white clover.
+2. Mapping the genetics of a novel leaf color polymorphism in white clover.
+3. Leveraging extant white clover progenitor species to explore questions
+   around the evolution of polyploidy.
 
