@@ -102,11 +102,15 @@ Access to high quality molecular and genomic resources is essential to help
 drive investigations into the genetic basis of adaptation, particularly in
 non-model system where such resources have been historically lacking.
 
-<div class="media-text" style="--media-width: 32%" markdown="1"> ![Circos plot
+<div class="media-text" style="--media-width: 32%" markdown="1">
+
+![Circos plot
 of the haplotype-resolved white clover genome
 assembly](../assets/images/circos.png)
 
-<div class="media-text__body" markdown="1"> To facilitate many of the ongoing
+<div class="media-text__body" markdown="1">
+
+To facilitate many of the ongoing
 genomic analyses for some of the projects discussed above, it was necessary to
 improve on white clover's genomic resources. In collaboration with other labs
 that use clover as a model system, we developed a [chromosome-level,
@@ -119,7 +123,11 @@ assembly](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_030408175.1/), the
 [annotation pipeline for which is
 publicly-available](https://github.com/James-S-Santangelo/dcg) and has been
 used on assemblies for other species with some success (though some
-modifications are necessary). </div> </div>
+modifications are necessary).
+
+</div>
+
+</div>
 
 ### Ongoing projects and questions
 
@@ -146,9 +154,11 @@ into the structural complexities of plant genomes.
 ### Neutral clines in traits with non-additive genetic architectures 
 
 <div class="media-text" markdown="1">
+
 ![Simulated HCN clines under varying strengths of drift, selection, and gene flow](../assets/images/sims.png)
 
 <div class="media-text__body" markdown="1">
+
 HCN exhibits duplicate-recessive epistasis (or complementary epistasis),
 whereby plants require a functional allele at each of two interacting loci to
 produce HCN. Recessivity at either locus (or both) results in the inability to
@@ -168,6 +178,8 @@ which experience stronger drift in many systems. However, the strength of
 observed phenotypic clines are far stronger than those generated via drift
 alone, and genomic analyses have ruled out drift as a likely explanation
 driving these clines.
+
 </div>
+
 </div>
 
