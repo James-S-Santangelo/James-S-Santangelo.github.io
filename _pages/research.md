@@ -26,7 +26,7 @@ and multifarious. A major focus of our lab is to understand the genetic
 architecture of plant adaptation to these heavily human-modified urban and
 agricultural landscapes.
 
-For example, we helped launch the [Global Urban Evolution Project
+For example, we helped launch the [GLobal Urban Evolution Project
 (GLUE)](https://www.globalurbanevolution.com/), a collaborative effort among
 287 scientists around the world with the common goal of understanding the
 mechanisms underlying [urban evolutionary change in white clover (_Trifolium
@@ -34,14 +34,14 @@ repens_)](https://www.dropbox.com/scl/fi/jhoatblsbr16r6eh34u4t/Santangelo-et-al.
 In this project, we documented urban-rural clines in hydrogen cyanide (HCN)—a
 plant defensive trait that also affects resistance to abiotic stressors (e.g.,
 frost, drought)—in 160 globally distributed cities. We generated a lot of data
-as part of this project, which numerous projects have leveraged. For example,
+as part of this GLUE, which numerous other projects have leveraged. For example,
 [Aude Caizergues](https://audecaizergues.github.io/) used the genomic data to
 explore the [demographic consequences of
 urbanization](https://onlinelibrary.wiley.com/doi/10.1111/mec.17311).
 Similarly, [Nic Kooyers](https://www.plantadaptation.com/), [Brandon
 Hendrickson](https://louisiana.edu/directory/people/brandon-hendrickson), [Kay
 Hodgins](http://hodginslab.com/), and [Paul
-Battlay](https://scholar.google.com/citations?hl=en&user=QaufYW4AAAAJ) lead
+Battlay](https://scholar.google.com/citations?hl=en&user=QaufYW4AAAAJ) led
 efforts to examine the consequences of white clover's invasion out of the
 Mediterranean to all inhabited continents, and some of the [loci underlying
 adaptation in its native and introduced
@@ -109,7 +109,8 @@ non-model systems where such resources have been historically lacking.
 ![Circos plot
 of the haplotype-resolved white clover genome
 assembly](../assets/images/circos.png)
-*Figure 3: Placeholder caption for the circos plot. Replace this text.*
+*Figure 3: Circos plot of white clover assembly showing chromosomes (outer green bars),
+GC content (green line), gene density (red heatmap), and repeat content (blue heatmap).*
 
 <div class="media-text__body" markdown="1">
 
@@ -161,14 +162,15 @@ number of chromosome-level assemblies in white clover to:
 3. Explore how transposable elements have proliferated across the white clover
    genome.
 
-## Theme 3: Misc. research interests in pop gen and plant evolutionary genetics 
+## Theme 3: Other research in plant evolutionary genetics 
 
 ### Population genetic simulations
 
 <div class="media-text" markdown="1">
 
 ![Simulated HCN clines under varying strengths of drift, selection, and gene flow](../assets/images/sims.png)
-*Figure 4: Placeholder caption for the simulation figure. Replace this text.*
+*Figure 4: Schematic of population genetic simulations used for evaluating the
+formation of clines in HCN via drift, gene flow, and selection.*
 
 <div class="media-text__body" markdown="1">
 
@@ -200,8 +202,6 @@ Other simulation projects include:
 1. Testing the performance of gene-environment association analyses (e.g.,
    LFMM, BayPass) under varying levels of population structure with and without
    structure-correction.
-2. Comparing the performance of existing genotype-imputation software in highly
-   diverse, highly recombining non-model species.
 
 ### Ongoing projects and questions
 
@@ -212,4 +212,6 @@ random sample of other projects that are at various stages of development:
 2. Mapping the genetics of a novel leaf color polymorphism in white clover.
 3. Leveraging extant white clover progenitor species to explore questions
    around the evolution of polyploidy.
+4. Comparing the performance of existing genotype-imputation software in highly
+   diverse, highly recombining non-model species.
 
