@@ -1,0 +1,44 @@
+{% comment %}
+  Renders lab members from _data/people.yml as a responsive card grid,
+  one section per group (empty groups are skipped), then an alumni list.
+  `stage`, `project`, and alumni fields accept Markdown (links, *italics*).
+  Styles: "People page" block in assets/css/main.scss.
+{% endcomment %}
+{% assign people = site.data.people %}
+
+{% for g in people.groups %}
+  {% assign group_members = people.members | where: "group", g.key %}
+  {% if group_members.size > 0 %}
+<h2 id="{{ g.key }}">{{ g.title }}</h2>
+<div class="people-grid">
+    {% for p in group_members %}
+  <article class="person" id="{{ p.name | slugify }}">
+      {% if p.photo %}
+    <img class="person__photo" src="{{ p.photo | relative_url }}" alt="Photo of {{ p.name }}" loading="lazy">
+      {% else %}
+    <div class="person__photo person__photo--placeholder" aria-hidden="true"><i class="fa-solid fa-user"></i></div>
+      {% endif %}
+    <h3 class="person__name">{{ p.name }}</h3>
+      {% if p.stage %}<p class="person__stage">{{ p.stage | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>{% endif %}
+      {% if p.project %}<div class="person__project">{{ p.project | markdownify }}</div>{% endif %}
+      {% if p.email or p.cv or p.links %}
+    <ul class="person__links">
+        {% if p.email %}<li><a href="mailto:{{ p.email }}" title="Email {{ p.name }}"><i class="fa-solid fa-fw fa-envelope" aria-hidden="true"></i><span class="person__link-label">Email</span></a></li>{% endif %}
+        {% if p.cv %}<li><a href="{{ p.cv | relative_url }}" title="CV of {{ p.name }}"><i class="fa-solid fa-fw fa-file-pdf" aria-hidden="true"></i><span class="person__link-label">CV</span></a></li>{% endif %}
+        {% for l in p.links %}<li><a href="{{ l.url | relative_url }}" title="{{ l.label }}"><i class="{{ l.icon | default: 'fa-solid fa-link' }} fa-fw" aria-hidden="true"></i><span class="sr-only">{{ l.label }}</span></a></li>{% endfor %}
+    </ul>
+      {% endif %}
+  </article>
+    {% endfor %}
+</div>
+  {% endif %}
+{% endfor %}
+
+{% if people.alumni and people.alumni.size > 0 %}
+<h2 id="alumni">Alumni</h2>
+<ul class="people-alumni">
+  {% for a in people.alumni %}{% assign a_name = a.name | default: a %}
+  <li><strong>{{ a_name }}</strong>{% if a.stage %}, {{ a.stage | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% endif %}{% if a.now %} <span class="people-alumni__now">— now {{ a.now | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>{% endif %}</li>
+  {% endfor %}
+</ul>
+{% endif %}

@@ -1,29 +1,20 @@
-# Vim
+# Jekyll build output and caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler (gems installed locally into vendor/bundle — see README)
+.bundle/
+vendor/
+
+# Note: Gemfile.lock IS committed so local and CI builds use identical gem versions.
+
+# Editors / OS
 *~
 *.sw[p_]
-
-# Sublime Text
 *.sublime-project
 *.sublime-workspace
-
-# Ruby Gem
-*.gem
-.bundle
-Gemfile.lock
-**/vendor/bundle
-
-# Node.js and NPM
-node_modules
-npm-debug.log*
-package-lock.json
-codekit-config.json
-
-# macOS
+.vscode/
+.idea/
 .DS_Store
-
-# Jekyll generated files
-.jekyll-cache
-.jekyll-metadata
-.sass-cache
-_asset_bundler_cache
-_site

@@ -1,0 +1,20 @@
+# Weekly update PRs for gems (incl. the Minimal Mistakes git tag) and for the
+# SHA-pinned actions in .github/workflows/. Each PR triggers a test build.
+version: 2
+updates:
+  - package-ecosystem: bundler
+    directory: "/"
+    schedule:
+      interval: weekly
+    groups:
+      jekyll:
+        patterns: ["*"]
+        exclude-patterns: ["minimal-mistakes-jekyll"]
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ["*"]

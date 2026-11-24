@@ -1,25 +1,23 @@
-
 source "https://rubygems.org"
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
+# Jekyll itself. Built by GitHub Actions (.github/workflows/pages.yml),
+# so we are not limited to the github-pages gem's Jekyll 3.10.
+gem "jekyll", "~> 4.4"
 
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-include-cache", group: :jekyll_plugins
+# Theme: Minimal Mistakes, pinned to a release tag. Dependabot opens a PR
+# when a new tag is published; bump manually by editing the tag and running
+# `bundle update minimal-mistakes-jekyll`.
+gem "minimal-mistakes-jekyll",
+    git: "https://github.com/mmistakes/minimal-mistakes.git",
+    tag: "4.28.1"
 
-# If you want to use Jekyll native, uncomment the line below.
-# To upgrade, run `bundle update`.
-
-# If you have any plugins, put them here!
+# Plugins listed in _config.yml. They are also runtime dependencies of the
+# theme, but are declared here so Dependabot tracks them directly.
+# Exact versions are pinned in Gemfile.lock.
 group :jekyll_plugins do
-  # gem "jekyll-archives"
+  gem "jekyll-include-cache"
+  gem "jekyll-sitemap"
   gem "jekyll-feed"
-  gem 'jekyll-sitemap'
+  gem "jekyll-last-modified-at" # "Updated:" dates from git history
+  gem "jekyll-scholar"           # BibTeX -> Publications page
 end
-

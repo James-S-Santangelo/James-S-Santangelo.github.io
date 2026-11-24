@@ -1,73 +1,43 @@
 ---
-title: "Assistant Professor"
+title: "Santangelo Lab"
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/Infl_fruit_wide.jpg
-  actions:
-    - label: "Download CV"
-    - label: "Email"
-  # caption: "Photo credit: James Santangelo"
-excerpt: Department of Biology<br>University of Ottawa
+  image: /assets/images/Infl_fruit_wide.jpg
+  image_description: "Flowering white clover plant growing through landscape fabric during a field experiment at Koffler Scientific Reserve"
+excerpt: Department of Biology, University of Ottawa
 
 intro:
-  - excerpt: "_I recently began as an assistant professor in the Department of Biology at
-  the University of Ottawa. I'm in the process of transitioning this site to a lab website.
-  In the meantime, feel free to reach out if you're interested in working together!_"
+  - excerpt: "The Santangelo Lab at the University of Ottawa leverages
+    observational, experimental, and computational approaches to understand the
+    genetic basis and architecture of plant adaptation to contemporary
+    environmental change. You can read more about specific research themes
+    [here](/research/) and explore recent publications [here](/publications/)
+    or on [Google
+    Scholar](https://scholar.google.com/citations?user=3Y4O9c4AAAAJ&hl=en).
+
+    <br> <br> 
+
+    __We are recruiting MSc. and PhD students to the lab. More info
+    can be found [here](/join/)__"
 
 feature_row:
+  - image_path: /assets/images/fly-agaric.jpg
+    alt: "Fly agaric on forest floor"
+    title: "People"
+    excerpt: "Current and former lab member"
+    url: /people/
   - image_path: assets/images/squill.jpg
     alt: "Siberian squill anthers"
     title: "Research"
     excerpt: "Descriptions of past and ongoing projects"
     url: /research/
-    # btn_label: "Read More"
-    # btn_class: "btn--primary"
   - image_path: /assets/images/salix.jpg
-    # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "Salix flowers"
     title: "Publications"
     excerpt: "List of published papers and works in-progress"
     url: /publications/
-    # btn_label: "Read More"
-    # btn_class: "btn--primary"
-  - image_path: /assets/images/fly-agaric.jpg
-    alt: "Fly agaric on forest floor"
-    title: "Talks and posters"
-    excerpt: "Links to content presentated at past conferences"
-    url: /conferences/
-    # btn_label: "Read More"
-    # btn_class: "btn--primary"
-
-# feature_row2:
-#   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-#     alt: "placeholder image 2"
-#     title: "Placeholder Image Left Aligned"
-#     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-#     url: "#test-link"
-#     btn_label: "Read More"
-#     btn_class: "btn--primary"
-
-# feature_row3:
-#   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-#     alt: "placeholder image 2"
-#     title: "Placeholder Image Right Aligned"
-#     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-#     url: "#test-link"
-#     btn_label: "Read More"
-#     btn_class: "btn--primary"
-
-# feature_row4:
-#   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-#     alt: "placeholder image 2"
-#     title: "Placeholder Image Center Aligned"
-#     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-#     url: "#test-link"
-#     btn_label: "Read More"
-#     btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
