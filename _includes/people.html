@@ -37,8 +37,8 @@
 {% if people.alumni and people.alumni.size > 0 %}
 <h2 id="alumni">Alumni</h2>
 <ul class="people-alumni">
-  {% for a in people.alumni %}
-  <li><strong>{{ a.name }}</strong>{% if a.stage %}, {{ a.stage | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% endif %}{% if a.now %} <span class="people-alumni__now">— now {{ a.now | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>{% endif %}</li>
+  {% for a in people.alumni %}{% assign a_name = a.name | default: a %}
+  <li><strong>{{ a_name }}</strong>{% if a.stage %}, {{ a.stage | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% endif %}{% if a.now %} <span class="people-alumni__now">— now {{ a.now | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>{% endif %}</li>
   {% endfor %}
 </ul>
 {% endif %}

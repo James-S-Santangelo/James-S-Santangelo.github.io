@@ -59,7 +59,7 @@ members:
 
   - name: Maria Geist
     group: undergrad 
-    stage: Honour's Thesis Student 
+    stage: Honours Thesis Student 
     photo:
     project: Phenotypic clines in non-additive traits with drift and migration.
     email: mgeis048@uottawa.ca
@@ -67,14 +67,16 @@ members:
 
   - name: Victoria Robinson
     group: undergrad
-    stage: Honour's Thesis Student
+    stage: Honours Thesis Student
     photo: /assets/images/people/victoria.jpg
     project: Mapping the self-incompatibility locus in white clover.
     email: vrobi082@uottawa.ca
     cv:
 
-# Former members, newest first. The section is hidden while this list is empty.
+# Former members, newest first, under the `alumni:` key (indented "- name:"
+# entries, like members above). `stage` = their role in the lab; `now` = where
+# they went (both optional, Markdown allowed). A bare name also works: - Jane Doe
+alumni:
   - name: Owen Drew
     stage: "Summer Research Assistant"
     now: "Undergraduate student at Queen's University"
-alumni: ["Owen Drew"]
