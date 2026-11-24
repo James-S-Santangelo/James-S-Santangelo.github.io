@@ -56,6 +56,9 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Inspect (temporary)
+        run: |
+          tr '\n' ' ' < _site/people/index.html | sed 's/  */ /g' | grep -o '<h2 id="[^"]*">[^<]*\|<h3 class="person__name">[^<]*\|<ul class="people-alumni">.\{0,300\}' || true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
 
