@@ -68,13 +68,13 @@ members:
   - name: Victoria Robinson
     group: undergrad
     stage: Honour's Thesis Student
-    photo:
+    photo: /assets/images/people/victoria.jpg
     project: Mapping the self-incompatibility locus in white clover.
     email: vrobi082@uottawa.ca
     cv:
 
 # Former members, newest first. The section is hidden while this list is empty.
-#   - name: Jane Doe
-#     stage: "MSc student (2026–2028)"
-#     now: "PhD student, University of British Columbia"
-alumni: []
+  - name: Owen Drew
+    stage: "Summer Research Assistant"
+    now: "Undergraduate student at Queen's University"
+alumni: ["Owen Drew"]
