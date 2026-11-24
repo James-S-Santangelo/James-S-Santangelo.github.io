@@ -16,7 +16,7 @@ title_separator          : "|"
 subtitle                 : "Department of Biology, University of Ottawa" # site tagline that appears below site title in masthead
 name                     : ""
 description              : "Plant Evolutionary Genetics"
-url                      : "https://james-s-santangelo.github.io"
+url                      : "https://santangelo-lab.ca" # custom domain (Settings > Pages); james-s-santangelo.github.io redirects here
 baseurl                  : # leave blank for a user/org site
 repository               : "James-S-Santangelo/James-S-Santangelo.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"

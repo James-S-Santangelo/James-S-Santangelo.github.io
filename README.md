@@ -1,6 +1,7 @@
-# james-s-santangelo.github.io
+# santangelo-lab.ca
 
-Source for <https://james-s-santangelo.github.io>, built with
+Source for <https://santangelo-lab.ca> (formerly <https://james-s-santangelo.github.io>, which
+redirects there), built with
 [Jekyll](https://jekyllrb.com) 4.4 and the
 [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme (4.28.1),
 and deployed to GitHub Pages by GitHub Actions.
